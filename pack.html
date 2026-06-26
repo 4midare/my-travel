@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>마쓰야마 여행 🧳 | 준비물</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="emoji">🧳</div>
+    <h1>준비물</h1>
+    <p>짐 체크리스트</p>
+  </header>
+
+  <nav class="tabs">
+    <a href="index.html">🏠 홈</a>
+    <a href="food.html">🍜 맛집</a>
+    <a href="drink.html">🍶 술집</a>
+    <a href="pack.html" class="active">🧳 준비물</a>
+  </nav>
+
+  <div class="wrap">
+
+    <!-- 준비물 -->
+    <section>
+      <div class="sec-head"><span class="sec-badge">PACK</span><h2>준비물 리스트 🧳</h2></div>
+      <p class="sec-note">체크하면 자동 저장돼요 (이 기기 기준)</p>
+
+      <div class="check-group">
+        <h3>👕 옷</h3>
+        <div class="check-item"><input type="checkbox"><label>레인부츠</label></div>
+        <div class="check-item"><input type="checkbox"><label>반바지, 반팔티</label></div>
+        <div class="check-item"><input type="checkbox"><label>잠옷</label></div>
+        <div class="check-item"><input type="checkbox"><label>우양산</label></div>
+        <div class="check-item"><input type="checkbox"><label>셔츠</label></div>
+      </div>
+
+      <div class="check-group">
+        <h3>🪥 세면도구</h3>
+        <div class="check-item"><input type="checkbox"><label>칫솔</label></div>
+        <div class="check-item"><input type="checkbox"><label>데오도란트</label></div>
+      </div>
+
+      <div class="check-group">
+        <h3>💻 전자 용품</h3>
+        <div class="check-item"><input type="checkbox"><label>충전기</label></div>
+        <div class="check-item"><input type="checkbox"><label>돼지코 (110V 변환 어댑터)</label></div>
+      </div>
+    </section>
+
+    <footer>🍊 즐거운 마쓰야마 여행 되세요!</footer>
+  </div>
+
+<script>
+  // 체크리스트 상태 저장/복원 (localStorage)
+  document.querySelectorAll('.check-item').forEach(function(item, i){
+    var box = item.querySelector('input');
+    var key = 'pack_' + i;
+    if(localStorage.getItem(key) === '1'){ box.checked = true; item.classList.add('done'); }
+    item.addEventListener('click', function(e){
+      if(e.target.tagName !== 'INPUT'){ box.checked = !box.checked; }
+      item.classList.toggle('done', box.checked);
+      localStorage.setItem(key, box.checked ? '1' : '0');
+    });
+  });
+</script>
+</body>
+</html>
