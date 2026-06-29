@@ -94,6 +94,7 @@ section{margin-top:34px;}
   padding:4px 11px; border-radius:8px; letter-spacing:.5px;
 }
 .sec-badge.blue{background:var(--accent2);}
+.sec-badge.red{background:#e03131;}
 .sec-head h2{font-size:20px;}
 .sec-note{font-size:13px; color:var(--sub); margin:-6px 0 14px;}
 
@@ -116,6 +117,25 @@ section{margin-top:34px;}
 }
 .tag.want{background:#ffe3e3; color:#e8590c;}
 .tag.time{background:#e7f5ff; color:var(--accent2);}
+
+/* SOS / 긴급 연락처 */
+.sos-card{
+  background:#fff5f5; border:1px solid #ffc9c9; border-radius:12px;
+  padding:13px 15px; border-left:4px solid #e03131;
+}
+.sos-name{font-weight:700; font-size:15px; color:#c92a2a;}
+.sos-name .sos-sub{
+  display:block; font-weight:500; font-size:12px; color:var(--sub); margin-top:2px;
+}
+.sos-tel{
+  display:block; margin-top:9px; text-decoration:none; color:var(--ink);
+  font-size:13.5px; padding:7px 11px; background:#fff; border:1px solid #ffd8d8;
+  border-radius:8px;
+}
+.sos-tel b{color:#c92a2a; font-weight:700;}
+.sos-tel.big{text-align:center; padding:11px;}
+.sos-tel.big b{font-size:24px; letter-spacing:1px;}
+.sos-tel:hover{background:#fff0f0; border-color:#ffb3b3;}
 
 /* Checklist */
 .check-group{margin-bottom:18px;}
