@@ -28,7 +28,7 @@ header .dates{
 nav.tabs{
   position:sticky; top:0; z-index:10; background:rgba(245,247,250,.94);
   backdrop-filter:blur(8px); border-bottom:1px solid var(--line);
-  display:flex; gap:8px; overflow-x:auto; padding:12px 16px; justify-content:center;
+  display:flex; gap:8px; overflow-x:auto; padding:12px 16px; justify-content:safe center;
 }
 nav.tabs a{
   flex:0 0 auto; text-decoration:none; color:var(--sub);
