@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>my-travel ✈️ | 여행 모음</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="emoji">✈️🗺️</div>
+    <h1>my-travel</h1>
+    <p>여행별 일정 · 맛집 · 준비물을 한곳에</p>
+    <div class="count-pill" id="tripCount">총 1개의 여행</div>
+  </header>
+
+  <div class="wrap">
+
+    <section>
+      <div class="sec-head"><span class="sec-badge">TRIPS</span><h2>여행 목록</h2></div>
+
+      <div class="trip-grid" id="tripGrid">
+
+        <article class="trip-card" data-start="2026-07-04" data-end="2026-07-08">
+          <a class="stretched-link" href="2026-07-matsuyama/index.html" aria-label="민수의 땀나는 마쓰야마 여행 열기"></a>
+          <div class="trip-banner"></div>
+          <div class="trip-body">
+            <div class="trip-top">
+              <div class="trip-emoji">🍊</div>
+              <span class="trip-status" data-status></span>
+            </div>
+            <div class="trip-title">민수의 땀나는 마쓰야마 여행</div>
+            <div class="trip-loc">에히메현 · 도고온천 · 미식 투어</div>
+            <div class="trip-dates">📅 4박 5일 · 2026.07.04(금) ~ 07.08(화)</div>
+            <div class="trip-chips">
+              <a href="2026-07-matsuyama/index.html">🏠 홈</a>
+              <a href="2026-07-matsuyama/food.html">🍜 맛집</a>
+              <a href="2026-07-matsuyama/cafe.html">☕ 카페</a>
+              <a href="2026-07-matsuyama/drink.html">🍶 술집</a>
+              <a href="2026-07-matsuyama/pack.html">🧳 준비물</a>
+            </div>
+          </div>
+        </article>
+
+        <div class="trip-card placeholder">
+          <div class="ph-emoji">✈️</div>
+          <div class="ph-title">다음 여행 준비 중 ✈️</div>
+          <div class="ph-sub">새 여행 폴더를 추가하면 여기에 나타나요</div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>made with ❤️ · <a href="https://github.com/4midare/my-travel" target="_blank">GitHub Pages</a></footer>
+  </div>
+
+  <script>
+  // 여행 카드 상태 배지 계산 (D-day / 여행 중 / 다녀옴)
+  (function () {
+    var cards = document.querySelectorAll(".trip-card[data-start]");
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    cards.forEach(function (card) {
+      var start = new Date(card.getAttribute("data-start") + "T00:00:00");
+      var end = new Date(card.getAttribute("data-end") + "T00:00:00");
+      var badge = card.querySelector("[data-status]");
+      if (!badge) return;
+
+      if (today < start) {
+        var diff = Math.ceil((start - today) / (1000 * 60 * 60 * 24));
+        badge.textContent = "D-" + diff;
+      } else if (today >= start && today <= end) {
+        badge.textContent = "여행 중";
+        badge.classList.add("ongoing");
+      } else {
+        badge.textContent = "다녀옴";
+        badge.classList.add("done");
+      }
+    });
+  })();
+  </script>
+</body>
+</html>
