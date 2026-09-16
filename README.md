@@ -10,7 +10,8 @@
 
 ## 새 여행 추가
 
-1. `YYYY-MM-도시` 폴더 생성
-2. 기존 여행 폴더의 `index.html`, `style.css`를 복사해 내용 수정
-3. 루트 `index.html`의 여행 목록에 카드 한 장 추가
-4. 위 표에 한 줄 추가
+```bash
+./new-trip.sh
+```
+
+질문에 답하면 `YYYY-MM-도시` 폴더가 `_template/` 기준으로 생성되고, 루트 `index.html` 여행 카드와 위 표에 자동으로 추가됩니다. 생성 후 `index.html`(항공·숙소·일정), `food/cafe/drink.html` 카드, 날씨 좌표(`LAT/LON`)를 채우면 됩니다.
