@@ -76,16 +76,6 @@ section{margin-top:36px;}
   background:#f1f6fb; color:var(--accent2); border-radius:20px;
   font-size:12.5px; font-weight:600;
 }
-.trip-chips{
-  display:flex; flex-wrap:wrap; gap:8px; margin-top:14px;
-  position:relative; z-index:2;
-}
-.trip-chips a{
-  text-decoration:none; font-size:12.5px; font-weight:600; color:var(--sub);
-  background:#fff; border:1px solid var(--line); padding:6px 12px; border-radius:20px;
-  transition:color .15s, border-color .15s;
-}
-.trip-chips a:hover{color:var(--accent); border-color:var(--accent);}
 .stretched-link{
   position:absolute; inset:0; z-index:1;
 }
