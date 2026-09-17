@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>민수의 홍콩 여행 🧳 | 준비물</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="emoji">🧳</div>
+    <h1>준비물</h1>
+    <p>짐 체크리스트</p>
+  </header>
+
+  <nav class="tabs">
+    <a href="index.html">🏠 홈</a>
+    <a href="food.html">🍜 맛집</a>
+    <a href="cafe.html">☕ 카페</a>
+    <a href="drink.html">🍶 술집</a>
+    <a href="pack.html" class="active">🧳 준비물</a>
+  </nav>
+
+  <div class="wrap">
+
+    <!-- 긴급 연락처 -->
+    <section>
+      <div class="sec-head"><span class="sec-badge red">SOS</span><h2>긴급 연락처 🚨</h2></div>
+      <p class="sec-note">현지에서 바로 전화 연결 — 번호를 누르면 통화로 연결돼요</p>
+
+      <div class="grid">
+        <div class="sos-card">
+          <div class="sos-name">🇰🇷 대한민국 영사관 <span class="sos-sub">홍콩 관할 공관</span></div>
+          <a class="sos-tel" href="tel:+82232100404">🆘 영사콜센터(24h) <b>+82-2-3210-0404</b></a>
+          <!-- TODO: 현지 공관 번호 추가 (긴급당직 · 대표전화) -->
+        </div>
+
+        <!-- TODO: 응급·경찰 번호는 나라마다 다릅니다 (예: 일본 119 / 110, 유럽 112, 미국 911) -->
+        <div class="sos-card">
+          <div class="sos-name">🚑 현지 응급 <span class="sos-sub">화재·부상·응급환자</span></div>
+          <a class="sos-tel big" href="tel:119"><b>119</b></a>
+        </div>
+
+        <div class="sos-card">
+          <div class="sos-name">👮 현지 경찰 <span class="sos-sub">사건·사고·분실·도난</span></div>
+          <a class="sos-tel big" href="tel:110"><b>110</b></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 준비물 -->
+    <section>
+      <div class="sec-head"><span class="sec-badge">PACK</span><h2>준비물 리스트 🧳</h2></div>
+      <p class="sec-note">체크하면 모든 기기에 바로 반영돼요 ☁️ <span class="sync-status" id="syncStatus">연결 중…</span></p>
+
+      <div id="packList"></div>
+
+      <form class="add-item" id="addForm" autocomplete="off">
+        <select id="addCat" aria-label="분류"></select>
+        <input id="addName" type="text" placeholder="준비물 추가…" maxlength="60" required>
+        <button type="submit">추가</button>
+      </form>
+    </section>
+
+    <footer>🇭🇰 즐거운 홍콩 여행 되세요!</footer>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../supabase.js"></script>
+<script>
+  // 준비물 체크리스트 (Supabase 실시간 동기화)
+  const TRIP = "2026-12-hongkong";
+  var FIXED_CATS = ["👕 옷", "🪥 세면도구", "💻 전자 용품", "💊 약·건강", "📄 서류", "🎒 기타"];
+  var packList = document.getElementById('packList');
+  var syncStatus = document.getElementById('syncStatus');
+  var addForm = document.getElementById('addForm');
+  var addCat = document.getElementById('addCat');
+  var addName = document.getElementById('addName');
+  var lastItems = [];
+
+  function esc(str){
+    return String(str).replace(/[&<>"']/g, function(ch){
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch];
+    });
+  }
+
+  function setStatus(text, cls){
+    syncStatus.textContent = text;
+    syncStatus.className = 'sync-status' + (cls ? ' ' + cls : '');
+  }
+
+  function populateCatOptions(items){
+    var cats = FIXED_CATS.slice();
+    items.forEach(function(it){
+      if(cats.indexOf(it.category) === -1){ cats.push(it.category); }
+    });
+    var prev = addCat.value;
+    addCat.innerHTML = cats.map(function(c){ return '<option value="' + esc(c) + '">' + esc(c) + '</option>'; }).join('');
+    if(prev && cats.indexOf(prev) !== -1){ addCat.value = prev; }
+  }
+
+  function render(items){
+    lastItems = items;
+    populateCatOptions(items);
+
+    if(!items.length){
+      packList.innerHTML = '<p class="empty">아직 준비물이 없어요. 아래에서 추가해 보세요 🧳</p>';
+      return;
+    }
+
+    var order = FIXED_CATS.slice();
+    items.forEach(function(it){
+      if(order.indexOf(it.category) === -1){ order.push(it.category); }
+    });
+
+    var groups = {};
+    items.forEach(function(it){
+      var cat = it.category || '🎒 기타';
+      if(!groups[cat]){ groups[cat] = []; }
+      groups[cat].push(it);
+    });
+
+    var html = '';
+    order.forEach(function(cat){
+      if(!groups[cat] || !groups[cat].length){ return; }
+      html += '<div class="check-group"><h3>' + esc(cat) + '</h3>';
+      groups[cat].forEach(function(it){
+        html += '<div class="check-item' + (it.checked ? ' done' : '') + '" data-id="' + it.id + '">'
+          + '<input type="checkbox"' + (it.checked ? ' checked' : '') + '>'
+          + '<label>' + esc(it.name) + '</label>'
+          + '<button type="button" class="del" aria-label="삭제">✕</button>'
+          + '</div>';
+      });
+      html += '</div>';
+    });
+    packList.innerHTML = html;
+  }
+
+  function load(){
+    sb.from('packing_items').select('*').eq('trip', TRIP).order('sort_order').order('id')
+      .then(function(res){
+        if(res.error){
+          setStatus('오프라인 · 연결 실패', 'err');
+          packList.innerHTML = '<p class="empty">목록을 불러오지 못했어요. 잠시 후 다시 시도해 주세요.</p>';
+          return;
+        }
+        render(res.data || []);
+        setStatus('동기화됨', 'ok');
+      });
+  }
+
+  packList.addEventListener('click', function(e){
+    var delBtn = e.target.closest('.del');
+    var item = e.target.closest('.check-item');
+    if(!item){ return; }
+    var id = Number(item.getAttribute('data-id'));
+
+    if(delBtn){
+      e.stopPropagation();
+      if(!confirm('삭제할까요?')){ return; }
+      setStatus('저장 중…', 'busy');
+      sb.from('packing_items').delete().eq('id', id).then(function(res){
+        if(res.error){ setStatus('오프라인 · 연결 실패', 'err'); return; }
+        load();
+      });
+      return;
+    }
+
+    var box = item.querySelector('input');
+    var next = !box.checked;
+    box.checked = next;
+    item.classList.toggle('done', next);
+    setStatus('저장 중…', 'busy');
+    sb.from('packing_items').update({ checked: next }).eq('id', id).then(function(res){
+      if(res.error){
+        box.checked = !next;
+        item.classList.toggle('done', !next);
+        setStatus('오프라인 · 연결 실패', 'err');
+        return;
+      }
+      setStatus('동기화됨', 'ok');
+    });
+  });
+
+  addForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = addName.value.trim();
+    if(!name){ return; }
+    var category = addCat.value || '🎒 기타';
+    var maxOrder = lastItems.reduce(function(max, it){ return Math.max(max, it.sort_order || 0); }, 0);
+    setStatus('저장 중…', 'busy');
+    sb.from('packing_items').insert({ trip: TRIP, name: name, category: category, sort_order: maxOrder + 1 })
+      .then(function(res){
+        if(res.error){ setStatus('오프라인 · 연결 실패', 'err'); return; }
+        addName.value = '';
+        load();
+      });
+  });
+
+  sb.channel('packing-' + TRIP)
+    .on('postgres_changes', { event: '*', schema: 'public', table: 'packing_items', filter: 'trip=eq.' + TRIP }, function(){ load(); })
+    .subscribe();
+
+  load();
+</script>
+</body>
+</html>
