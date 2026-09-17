@@ -14,7 +14,15 @@ body{
 header{
   background:linear-gradient(135deg,#ff8c42 0%,#ffb56b 50%,#2e8bc0 100%);
   color:#fff; padding:48px 20px 36px; text-align:center;
+  position:relative;
 }
+header .back-home{
+  position:absolute; left:14px; top:14px;
+  color:#fff; text-decoration:none; font-size:13px; font-weight:600;
+  background:rgba(255,255,255,.22); padding:6px 12px 6px 10px; border-radius:20px;
+  backdrop-filter:blur(4px); transition:background .15s;
+}
+header .back-home:hover{background:rgba(255,255,255,.36);}
 header .emoji{font-size:42px;}
 header h1{font-size:28px; margin:6px 0 4px; letter-spacing:-.5px;}
 header p{opacity:.95; font-size:14px;}
