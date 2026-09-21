@@ -22,10 +22,18 @@
     <a href="pack.html">🧳 준비물</a>
   </nav>
 
+  <nav class="sub-tabs" id="areaTabs" role="tablist" aria-label="지역 필터">
+    <button class="active" role="tab" aria-selected="true" data-area="all">전체 <span class="cnt">17</span></button>
+    <button role="tab" aria-selected="false" data-area="wanchai">완차이 <span class="cnt">1</span></button>
+    <button role="tab" aria-selected="false" data-area="central">센트럴 <span class="cnt">6</span></button>
+    <button role="tab" aria-selected="false" data-area="sheungwan">셩완 <span class="cnt">3</span></button>
+    <button role="tab" aria-selected="false" data-area="tst">침사추이 <span class="cnt">7</span></button>
+  </nav>
+
   <div class="wrap">
 
     <!-- 지역별 요약 -->
-    <section>
+    <section data-area="summary">
       <div class="sec-head"><span class="sec-badge blue">MAP</span><h2>지역별로 보기 🗺️</h2></div>
       <p class="sec-note">가고 싶은 곳 17곳 · 홍콩섬(완차이·센트럴·셩완) 10곳 + 구룡(침사추이) 7곳 · 같은 지역끼리 묶어서 하루에 돌기 · <b>일요일 휴무 5곳</b> 주의</p>
       <div class="grid">
@@ -37,7 +45,7 @@
       </div>
     </section>
     <!-- 완차이 (Wan Chai) 🏙️ -->
-    <section>
+    <section data-area="wanchai">
       <div class="sec-head"><span class="sec-badge">WAN CHAI</span><h2>완차이 (Wan Chai) 🏙️</h2></div>
       <p class="sec-note">홍콩섬 · 센트럴 동쪽 비즈니스 거리 · 1곳</p>
       <div class="grid">
@@ -53,7 +61,7 @@
     </section>
 
     <!-- 센트럴 (Central) 🏢 -->
-    <section>
+    <section data-area="central">
       <div class="sec-head"><span class="sec-badge">CENTRAL</span><h2>센트럴 (Central) 🏢</h2></div>
       <p class="sec-note">홍콩섬 중심 · 면 요리 격전지 · 6곳</p>
       <div class="grid">
@@ -109,7 +117,7 @@
     </section>
 
     <!-- 셩완 (Sheung Wan) 🏮 -->
-    <section>
+    <section data-area="sheungwan">
       <div class="sec-head"><span class="sec-badge">SHEUNG WAN</span><h2>셩완 (Sheung Wan) 🏮</h2></div>
       <p class="sec-note">센트럴 서쪽 옛 거리 · 죽·딤섬 · 3곳</p>
       <div class="grid">
@@ -141,7 +149,7 @@
     </section>
 
     <!-- 침사추이 (Tsim Sha Tsui) 🌃 -->
-    <section>
+    <section data-area="tst">
       <div class="sec-head"><span class="sec-badge">TSIM SHA TSUI</span><h2>침사추이 (Tsim Sha Tsui) 🌃</h2></div>
       <p class="sec-note">구룡반도 · 하버 야경 · 면 요리 천국 · 7곳</p>
       <div class="grid">
@@ -206,5 +214,36 @@
 
     <footer>🇭🇰 즐거운 홍콩 여행 되세요!</footer>
   </div>
+<script>
+  // 지역 필터 탭 — 섹션 data-area 로 표시/숨김, URL 해시로 상태 유지
+  (function(){
+    var tabs = document.querySelectorAll('#areaTabs button');
+    var sections = document.querySelectorAll('section[data-area]');
+    var mainNav = document.querySelector('nav.tabs');
+    var sub = document.getElementById('areaTabs');
+
+    function place(){ sub.style.top = mainNav.offsetHeight + 'px'; }
+    place(); window.addEventListener('resize', place);
+
+    function apply(area, push){
+      tabs.forEach(function(b){
+        var on = b.getAttribute('data-area') === area;
+        b.classList.toggle('active', on);
+        b.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      sections.forEach(function(sec){
+        var a = sec.getAttribute('data-area');
+        sec.hidden = !(area === 'all' ? true : a === area);
+      });
+      if (push) history.replaceState(null, '', area === 'all' ? location.pathname : '#' + area);
+    }
+    tabs.forEach(function(b){
+      b.addEventListener('click', function(){ apply(b.getAttribute('data-area'), true); });
+    });
+    var init = location.hash.replace('#','');
+    var valid = Array.prototype.some.call(tabs, function(b){ return b.getAttribute('data-area') === init; });
+    apply(valid ? init : 'all', false);
+  })();
+</script>
 </body>
 </html>
