@@ -11,7 +11,7 @@
     <a class="back-home" href="../index.html" aria-label="여행 목록으로">‹ 여행 목록</a>
     <div class="emoji">☕</div>
     <h1>카페</h1>
-    <p>지역별 4곳 · 홍콩식 디저트 · 탕수이 · 카페</p>
+    <p>지역별 5곳 · 홍콩식 디저트 · 탕수이 · 카페</p>
   </header>
 
   <nav class="tabs">
@@ -23,10 +23,11 @@
   </nav>
 
   <nav class="sub-tabs" id="areaTabs" role="tablist" aria-label="지역 필터">
-    <button class="active" role="tab" aria-selected="true" data-area="all">전체 <span class="cnt">4</span></button>
+    <button class="active" role="tab" aria-selected="true" data-area="all">전체 <span class="cnt">5</span></button>
     <button role="tab" aria-selected="false" data-area="wanchai">완차이 <span class="cnt">2</span></button>
     <button role="tab" aria-selected="false" data-area="central">센트럴 <span class="cnt">1</span></button>
     <button role="tab" aria-selected="false" data-area="cwb">코즈웨이베이 <span class="cnt">1</span></button>
+    <button role="tab" aria-selected="false" data-area="tst">침사추이 <span class="cnt">1</span></button>
   </nav>
 
   <div class="wrap">
@@ -34,7 +35,7 @@
     <!-- 지역별 요약 -->
     <section data-area="summary">
       <div class="sec-head"><span class="sec-badge blue">MAP</span><h2>지역별로 보기 🗺️</h2></div>
-      <p class="sec-note">카페·디저트 4곳 · 모두 홍콩섬 · 홍콩식 디저트(탕수이) 3곳 + 카페 1곳 · 대부분 오후에 열고 밤늦게까지 해서 저녁 식사 후 코스로 딱</p>
+      <p class="sec-note">카페·디저트 5곳 · 홍콩섬 4곳 + 구룡(침사추이) 1곳 · 홍콩식 디저트(탕수이) 4곳 + 카페 1곳 · 대부분 오후에 열고 밤늦게까지 해서 저녁 식사 후 코스로 딱</p>
       <div class="grid">
         <div class="card">
           <span class="tag want">평점 TOP</span>
@@ -98,6 +99,24 @@
       </div>
     </section>
 
+    <!-- 침사추이 (Tsim Sha Tsui) 🌃 -->
+    <section data-area="tst">
+      <div class="sec-head"><span class="sec-badge">TST</span><h2>침사추이 (Tsim Sha Tsui) 🌃</h2></div>
+      <p class="sec-note">구룡 · 록예딤섬·치케이에서 도보 3분 · 점심부터 밤늦게까지</p>
+      <div class="grid">
+        <div class="card">
+          <span class="tag">홍콩식 디저트 · 탕수이</span>
+          <div class="name">龍糖坊 Lung Tong Fong (尖沙咀 침사추이점)</div>
+          <div class="desc">홍콩식 탕수이 디저트 · <b>록예딤섬·치케이 근처 (도보 3분)</b> → 딤섬 먹고 디저트 코스로</div>
+          <div class="desc">구글 평점 <b>⭐ 4.0</b> · 리뷰 114개 · OpenRice 😊123 / ☹️1 · 가격 <b>$50~100</b></div>
+          <div class="desc">🕐 <b>매일 11:30~23:30</b> · 연중무휴 · 오후 2~4시, 저녁 8~9시가 가장 붐빔 (크게 붐비진 않음)</div>
+          <div class="desc">📍 22 Ashley Rd, Honytex Building (지하·지상) · 📞 <a href="tel:+85223386166">+852 2338 6166</a></div>
+          <a class="maplink" href="https://maps.app.goo.gl/XgyLmQHfHCbXmXYN6" target="_blank">📍 지도에서 보기</a>
+          <a class="maplink" href="https://s.openrice.com/QrKS0somF00" target="_blank">🍽️ OpenRice에서 보기</a>
+        </div>
+      </div>
+    </section>
+
     <footer>🇭🇰 즐거운 홍콩 여행 되세요!</footer>
   </div>
 <script>
@@ -116,6 +135,7 @@
         var on = b.getAttribute('data-area') === area;
         b.classList.toggle('active', on);
         b.setAttribute('aria-selected', on ? 'true' : 'false');
+        if (on) sub.scrollLeft = b.offsetLeft - (sub.clientWidth - b.offsetWidth) / 2;
       });
       sections.forEach(function(sec){
         var a = sec.getAttribute('data-area');

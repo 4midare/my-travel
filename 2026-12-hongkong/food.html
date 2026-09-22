@@ -302,6 +302,7 @@
         var on = b.getAttribute('data-area') === area;
         b.classList.toggle('active', on);
         b.setAttribute('aria-selected', on ? 'true' : 'false');
+        if (on) sub.scrollLeft = b.offsetLeft - (sub.clientWidth - b.offsetWidth) / 2;
       });
       sections.forEach(function(sec){
         var a = sec.getAttribute('data-area');
