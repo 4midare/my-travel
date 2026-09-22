@@ -11,7 +11,7 @@
     <a class="back-home" href="../index.html" aria-label="여행 목록으로">‹ 여행 목록</a>
     <div class="emoji">☕</div>
     <h1>카페</h1>
-    <p>추천 카페 · 브런치 · 디저트</p>
+    <p>지역별 4곳 · 홍콩식 디저트 · 탕수이 · 카페</p>
   </header>
 
   <nav class="tabs">
@@ -22,29 +22,114 @@
     <a href="pack.html">🧳 준비물</a>
   </nav>
 
+  <nav class="sub-tabs" id="areaTabs" role="tablist" aria-label="지역 필터">
+    <button class="active" role="tab" aria-selected="true" data-area="all">전체 <span class="cnt">4</span></button>
+    <button role="tab" aria-selected="false" data-area="wanchai">완차이 <span class="cnt">2</span></button>
+    <button role="tab" aria-selected="false" data-area="central">센트럴 <span class="cnt">1</span></button>
+    <button role="tab" aria-selected="false" data-area="cwb">코즈웨이베이 <span class="cnt">1</span></button>
+  </nav>
+
   <div class="wrap">
 
-    <!-- TODO: 섹션을 복사해서 지역/테마별로 늘리고, 카드에 실제 카페를 채우세요 -->
-    <section>
-      <div class="sec-head"><span class="sec-badge">CAFE</span><h2>가보고 싶은 카페 ☕</h2></div>
-      <p class="sec-note">이 줄은 섹션 설명 — 필요 없으면 지워도 돼요</p>
+    <!-- 지역별 요약 -->
+    <section data-area="summary">
+      <div class="sec-head"><span class="sec-badge blue">MAP</span><h2>지역별로 보기 🗺️</h2></div>
+      <p class="sec-note">카페·디저트 4곳 · 모두 홍콩섬 · 홍콩식 디저트(탕수이) 3곳 + 카페 1곳 · 대부분 오후에 열고 밤늦게까지 해서 저녁 식사 후 코스로 딱</p>
       <div class="grid">
         <div class="card">
-          <span class="tag want">가보고싶음</span>
-          <div class="name">카페 이름 ①</div>
-          <div class="desc">한 줄 메모 · 오픈 <b>00:00</b></div>
-          <a class="maplink" href="https://maps.app.goo.gl/" target="_blank">📍 지도에서 보기</a>
+          <span class="tag want">평점 TOP</span>
+          <div class="name">⭐ 4.7 C Dessert · 4.7 MYLKLAB.CO · 4.6 Ching Ching Desserts</div>
+          <div class="desc">홍콩식 디저트(완차이) · 카페(센트럴) · 홍콩식 디저트(완차이)</div>
+        </div>
+      </div>
+    </section>
+    <!-- 완차이 (Wan Chai) 🏙️ -->
+    <section data-area="wanchai">
+      <div class="sec-head"><span class="sec-badge">WAN CHAI</span><h2>완차이 (Wan Chai) 🏙️</h2></div>
+      <p class="sec-note">홍콩식 디저트 2곳 · 둘 다 오후 1시 오픈, 밤늦게까지</p>
+      <div class="grid">
+        <div class="card">
+          <span class="tag want">홍콩식 디저트</span>
+          <div class="name">C Dessert 聰。</div>
+          <div class="desc">홍콩식 디저트 전문점 · 탕수이(糖水), 사고 같은 전통 디저트</div>
+          <div class="desc">구글 평점 <b>⭐ 4.7</b> · 리뷰 811개</div>
+          <div class="desc">🕐 <b>월~목·일 13:00~23:00 · 금·토 13:00~24:00</b></div>
+          <a class="maplink" href="https://maps.app.goo.gl/Nd8RW3P4JHBuxEvbA" target="_blank">📍 지도에서 보기</a>
         </div>
         <div class="card">
-          <span class="tag">숙소 근처</span>
-          <div class="name">카페 이름 ②</div>
-          <div class="desc">한 줄 메모</div>
-          <a class="maplink" href="https://maps.app.goo.gl/" target="_blank">📍 지도에서 보기</a>
+          <span class="tag want">홍콩식 디저트</span>
+          <div class="name">晶晶甜品 Ching Ching Desserts</div>
+          <div class="desc">홍콩식 디저트, 푸딩 등을 파는 곳</div>
+          <div class="desc">구글 평점 <b>⭐ 4.6</b> · 리뷰 402개 · 가격 <b>~$50</b></div>
+          <div class="desc">🕐 <b>매일 13:00~23:00</b></div>
+          <a class="maplink" href="https://maps.app.goo.gl/jAKG63LdgxWzdeaS9" target="_blank">📍 지도에서 보기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 센트럴 (Central) 🏢 -->
+    <section data-area="central">
+      <div class="sec-head"><span class="sec-badge">CENTRAL</span><h2>센트럴 (Central) 🏢</h2></div>
+      <p class="sec-note">Central Market 2층 · 커피 한 잔 쉬어가기 좋은 위치</p>
+      <div class="grid">
+        <div class="card">
+          <span class="tag want">카페</span>
+          <div class="name">MYLKLAB.CO</div>
+          <div class="desc">Central Market 2층</div>
+          <div class="desc">구글 평점 <b>⭐ 4.7</b> · 리뷰 87개 · 가격 <b>$50~100</b></div>
+          <div class="desc">🕐 <b>월~금 09:00~22:00 · 토·일 10:00~22:00</b></div>
+          <a class="maplink" href="https://maps.app.goo.gl/1GEP1CpvJNRqrYyD9" target="_blank">📍 지도에서 보기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 코즈웨이베이 (Causeway Bay) 🛍️ -->
+    <section data-area="cwb">
+      <div class="sec-head"><span class="sec-badge">CWB</span><h2>코즈웨이베이 (Causeway Bay) 🛍️</h2></div>
+      <p class="sec-note">완차이 동쪽 쇼핑 지구 · 밤 12시까지 하는 탕수이집</p>
+      <div class="grid">
+        <div class="card">
+          <span class="tag">홍콩식 디저트 · 탕수이</span>
+          <div class="name">Lung Tong Fong 龍糖坊 (銅鑼灣점)</div>
+          <div class="desc">구글 평점 <b>⭐ 4.2</b> · 리뷰 206개 · 가격 <b>$50~100</b></div>
+          <div class="desc">🕐 <b>매일 14:00~24:00</b></div>
+          <a class="maplink" href="https://maps.app.goo.gl/cvPutbNBrfrpwnDB9" target="_blank">📍 지도에서 보기</a>
         </div>
       </div>
     </section>
 
     <footer>🇭🇰 즐거운 홍콩 여행 되세요!</footer>
   </div>
+<script>
+  // 지역 필터 탭 — 섹션 data-area 로 표시/숨김, URL 해시로 상태 유지
+  (function(){
+    var tabs = document.querySelectorAll('#areaTabs button');
+    var sections = document.querySelectorAll('section[data-area]');
+    var mainNav = document.querySelector('nav.tabs');
+    var sub = document.getElementById('areaTabs');
+
+    function place(){ sub.style.top = mainNav.offsetHeight + 'px'; }
+    place(); window.addEventListener('resize', place);
+
+    function apply(area, push){
+      tabs.forEach(function(b){
+        var on = b.getAttribute('data-area') === area;
+        b.classList.toggle('active', on);
+        b.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      sections.forEach(function(sec){
+        var a = sec.getAttribute('data-area');
+        sec.hidden = !(area === 'all' ? true : a === area);
+      });
+      if (push) history.replaceState(null, '', area === 'all' ? location.pathname : '#' + area);
+    }
+    tabs.forEach(function(b){
+      b.addEventListener('click', function(){ apply(b.getAttribute('data-area'), true); });
+    });
+    var init = location.hash.replace('#','');
+    var valid = Array.prototype.some.call(tabs, function(b){ return b.getAttribute('data-area') === init; });
+    apply(valid ? init : 'all', false);
+  })();
+</script>
 </body>
 </html>
