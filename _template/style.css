@@ -152,6 +152,7 @@ section{margin-top:34px;}
 }
 .tag.want{background:#ffe3e3; color:#e8590c;}
 .tag.time{background:#e7f5ff; color:var(--accent2);}
+.tag.rest{background:#e6f7ee; color:#1e8a4c;}
 
 /* SOS / 긴급 연락처 */
 .sos-card{
