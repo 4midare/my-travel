@@ -2,6 +2,9 @@
   // Cloudflare Workers 정적 사이트 설정 (travel.neungae.com)
   "name": "my-travel",
   "compatibility_date": "2026-10-01",
+  "routes": [
+    { "pattern": "travel.neungae.com", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./",
     "html_handling": "auto-trailing-slash",
