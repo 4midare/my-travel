@@ -1,12 +1,12 @@
 {
-  // Cloudflare Workers 정적 사이트 설정 (travel.neungae.com)
+  // Cloudflare Workers 정적 사이트 설정 (travel.neungae.com) · 빌드: npm run build → dist/
   "name": "my-travel",
   "compatibility_date": "2026-10-01",
   "routes": [
     { "pattern": "travel.neungae.com", "custom_domain": true }
   ],
   "assets": {
-    "directory": "./",
+    "directory": "./dist",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   }

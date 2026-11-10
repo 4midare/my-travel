@@ -1,0 +1,1713 @@
+{
+  "id": "2026-12-hongkong",
+  "city": "홍콩",
+  "emoji": "🇭🇰",
+  "start": "2026-12-12",
+  "end": "2026-12-17",
+  "title": "민수의 홍콩 여행",
+  "subtitle": "딤섬 · 야경 · 미식 투어",
+  "heroEmoji": "🇭🇰✈️",
+  "weather": {
+    "label": "🇭🇰 홍콩 (Hong Kong)",
+    "lat": 22.3,
+    "lon": 114.17,
+    "timezone": "Asia/Hong_Kong"
+  },
+  "flights": {
+    "note": "이스타항공 · 일반석 · 보잉 737-800 · 기내식 불포함 · 시간은 현지시간",
+    "cards": [
+      {
+        "tags": [
+          {
+            "text": "가는 편 · 12/12(토)"
+          }
+        ],
+        "name": "인천 T1 → 홍콩 T1",
+        "desc": [
+          "항공편 <b>ZE861</b> · 출발 <b>19:15</b> → 도착 <b>22:35</b>"
+        ]
+      },
+      {
+        "tags": [
+          {
+            "text": "오는 편 · 12/17(목)"
+          }
+        ],
+        "name": "홍콩 T1 → 인천 T1",
+        "desc": [
+          "항공편 <b>ZE862</b> · 출발 <b>00:05</b> → 도착 <b>04:55</b>",
+          "⚠️ 새벽 출발이라 <b>12/16(수) 밤 21시쯤</b> 공항 도착 기준으로 움직이기"
+        ]
+      },
+      {
+        "tags": [
+          {
+            "text": "예약 정보"
+          }
+        ],
+        "name": "Trip.com 예약",
+        "desc": [
+          "항공사 예약번호(PNR) <b>B8YCNG</b> · <b>X5JR6C</b>",
+          "PNR로 이스타항공 사이트에서 예약 관리·온라인 체크인 가능"
+        ],
+        "links": [
+          {
+            "label": "✈️ 이스타항공 홈페이지",
+            "href": "https://www.eastarjet.com"
+          }
+        ]
+      }
+    ]
+  },
+  "stay": {
+    "cards": [
+      {
+        "tags": [
+          {
+            "text": "12/12(토) 체크인 → 12/16(수) 체크아웃 · 4박"
+          }
+        ],
+        "name": "더 럭스 매너 (The Luxe Manor) ⭐5",
+        "desc": [
+          "침사추이 · 39 Kimberley Road · 아고다 평점 <b>8.5</b> (후기 1.5만)",
+          "예약 플랫폼: <b>아고다</b> · 예약번호 <b>1785235212</b>",
+          "슈페리어룸 <b>2개</b> · 성인 4명 · 22㎡ · 싱글 2 또는 더블 1 · <b>환불 불가</b>",
+          "24시간 체크인 · 무료 Wi-Fi · 피트니스 · <b>여행 가방 보관 서비스</b> (12/16 체크아웃 후 밤 비행기까지 짐 맡기기 가능)"
+        ],
+        "links": [
+          {
+            "label": "📍 지도에서 보기",
+            "href": "https://maps.google.com/?q=The+Luxe+Manor+39+Kimberley+Road+Tsim+Sha+Tsui"
+          }
+        ]
+      }
+    ]
+  },
+  "plan": {
+    "note": "숙소(침사추이) 기준 · 매일 <b>14:00~16:30 숙소 휴식</b> 고정 · 12월 일몰 <b>17:40</b> → 오전 걷기 · 낮 휴식 · 해 진 뒤 야경·야시장 · 일요일 휴무 식당(싱흥유엔·카우키·雲吞仔·상기콘지)은 평일 배치 · 🎫 사전 예약: 피크 트램(선택)",
+    "days": [
+      {
+        "num": 1,
+        "date": "12/12 (토) · 도착 · 야식",
+        "items": [
+          {
+            "time": "19:15",
+            "name": "인천공항 T1 출발 ✈️",
+            "desc": [
+              "ZE861편 · 이스타항공 · 기내식 없으니 탑승 전 식사"
+            ]
+          },
+          {
+            "time": "22:35",
+            "tags": [
+              {
+                "text": "이동"
+              }
+            ],
+            "name": "홍콩 국제공항 T1 도착 → AEL 구룡역 🚄",
+            "desc": [
+              "입국 후 <b>옥토퍼스 카드</b> 구입(AEL 카운터·세븐일레븐) · AEL 공항→구룡역 22분, 막차 <b>00:48</b> · 구룡역에서 택시 10분 또는 호텔 무료 셔틀(K1~K5)",
+              "💡 짐이 적으면 A21 버스(네이선로드 경유) · 자정 넘으면 N21 심야버스"
+            ]
+          },
+          {
+            "time": "23:40",
+            "name": "The Luxe Manor (더 럭스 매너) 체크인 🏨",
+            "desc": [
+              "39 Kimberley Rd · 24시간 체크인 · 짐 풀고 가볍게 야식"
+            ]
+          },
+          {
+            "time": "00:00",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "야식 — Wan Ton Son 雲吞仔 (완탕면) 또는 훠궈 🍜",
+            "desc": [
+              "雲吞仔 Wan Ton Son: 새벽 1시까지 · 토요일 영업 · 호텔에서 도보 5분(Hart Ave)",
+              "핫팟이 당기면 침사추이에 늦게까지 하는 훠궈집 많음 · 첫날은 여기까지만, 세부는 현장에서"
+            ],
+            "links": [
+              {
+                "label": "📍 Wan Ton Son",
+                "href": "https://maps.app.goo.gl/EAYztk62f2SDCS1d6"
+              },
+              {
+                "label": "📍 훠궈 검색",
+                "href": "https://www.google.com/maps/search/?api=1&query=hot+pot+Tsim+Sha+Tsui+open+late"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "num": 2,
+        "date": "12/13 (일) · 삼수이포 · 몽콕 · 야시장",
+        "items": [
+          {
+            "time": "09:30",
+            "tags": [
+              {
+                "text": "이동"
+              }
+            ],
+            "name": "출발 → MTR 삼수이포 🚇",
+            "desc": [
+              "침사추이→삼수이포 12분(췬완선 직통)"
+            ]
+          },
+          {
+            "time": "10:00",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "아침 겸 점심 — Tim Ho Wan 添好運 (팀호완) 삼수이포 본점 🥟",
+            "desc": [
+              "미슐랭 딤섬 원조 · 차슈바오 · 오픈 직후라 대기 짧음"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=Tim+Ho+Wan+Sham+Shui+Po"
+              }
+            ]
+          },
+          {
+            "time": "11:00",
+            "name": "DX design hub 🎨",
+            "desc": [
+              "280 Tung Chau St · 삼수이포역 C2 출구 · 11:00~19:00 · 입장 무료 · 일요일 영업(화요일 휴무)"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=DX+design+hub+280+Tung+Chau+Street+Sham+Shui+Po"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "name": "Apliu Street (압리우 스트리트) → Fuk Wing Street 福榮街 (장난감 거리) → Tai Nan Street 大南街 (가죽 거리) 🧱",
+            "desc": [
+              "압리우 전자 노점 → 장난감 거리(일요일 영업) → 가죽 거리는 일요일에 재료상 휴무 많음, 카페·공방 위주",
+              "🍮 중간에 Kung Wo Beancurd 公和荳品廠 (공화두품창)에서 두부화 한 그릇 · 압리우 스트리트에서 도보 3분"
+            ],
+            "links": [
+              {
+                "label": "📍 Apliu Street",
+                "href": "https://www.google.com/maps/search/?api=1&query=Apliu+Street+Sham+Shui+Po"
+              },
+              {
+                "label": "📍 Fuk Wing St",
+                "href": "https://www.google.com/maps/search/?api=1&query=Fuk+Wing+Street+Sham+Shui+Po"
+              },
+              {
+                "label": "📍 Tai Nan St",
+                "href": "https://www.google.com/maps/search/?api=1&query=Tai+Nan+Street+Sham+Shui+Po"
+              },
+              {
+                "label": "📍 Kung Wo Beancurd",
+                "href": "https://www.google.com/maps/search/?api=1&query=Kung+Wo+Beancurd+Factory+Sham+Shui+Po"
+              }
+            ]
+          },
+          {
+            "time": "13:00",
+            "tags": [
+              {
+                "text": "선택"
+              }
+            ],
+            "name": "시간 되면 — Heartwarming 暖心芝作 (하트워밍) 흑임자 디저트 🍨",
+            "desc": [
+              "태자(Prince Edward) 23 Yu Chau St · 미슐랭 빕 구르망 · 흑임자 탕수이·아이스크림·흑임자 롤 · 삼수이포에서 MTR 한 정거장 또는 도보 12분",
+              "💡 오후에 몽콕 가기 전 들러도 됨(태자역 D출구 2분, 몽콕까지 도보 10분) · 매일 10:00~22:00(확인 필요)"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://maps.app.goo.gl/cRVuNyTV4QWuzFcN8"
+              }
+            ]
+          },
+          {
+            "time": "13:30",
+            "tags": [
+              {
+                "text": "휴식",
+                "cls": "rest"
+              }
+            ],
+            "name": "숙소 복귀 · 휴식 14:00~16:30 🛏️",
+            "desc": [
+              "MTR 삼수이포→침사추이 12분 · 힘이 남으면 Kowloon Park 九龍公園 (구룡공원) 산책 후 휴식 · 호텔에서 도보 8분"
+            ],
+            "links": [
+              {
+                "label": "📍 Kowloon Park",
+                "href": "https://www.google.com/maps/search/?api=1&query=Kowloon+Park+Tsim+Sha+Tsui"
+              }
+            ]
+          },
+          {
+            "time": "16:30",
+            "tags": [
+              {
+                "text": "쇼핑"
+              }
+            ],
+            "name": "Mong Kok (몽콕) — Fa Yuen Street Market (파윤 스트리트) · 운동화 거리 👟",
+            "desc": [
+              "MTR 몽콕역 · Fa Yuen St 노점 → 남쪽 운동화 거리 · 바로 옆 Ladies' Market은 선택 · 해 질 무렵부터 분위기 살아남"
+            ],
+            "links": [
+              {
+                "label": "📍 Fa Yuen Street",
+                "href": "https://www.google.com/maps/search/?api=1&query=Fa+Yuen+Street+Market+Mong+Kok"
+              },
+              {
+                "label": "📍 Ladies' Market",
+                "href": "https://www.google.com/maps/search/?api=1&query=Ladies+Market+Tung+Choi+Street+Mong+Kok"
+              }
+            ]
+          },
+          {
+            "time": "17:45",
+            "name": "Temple Street Night Market 廟街 (템플 스트리트 야시장 · 야우마테이) 🏮",
+            "desc": [
+              "네이선로드 따라 걸어 내려오며 야우마테이로 · 18시쯤부터 노점 본격 오픈 · 야시장 따라 남쪽(조던)으로 내려가기"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=Temple+Street+Night+Market+Yau+Ma+Tei"
+              }
+            ]
+          },
+          {
+            "time": "19:00",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "저녁 — Wing Fat Seafood Restaurant (윙팟 해산물) 🦐",
+            "desc": [
+              "조던 · 템플 스트리트 남쪽 끝 부근 · 야시장 내려오다 바로 · 영업시간 확인 필요",
+              "대안: Hing Kee 興記菜館 굴전·솥밥(템플 스트리트 안)"
+            ],
+            "links": [
+              {
+                "label": "📍 Wing Fat",
+                "href": "https://maps.app.goo.gl/t5XXSNTSbNsFv5fk8"
+              },
+              {
+                "label": "📍 Hing Kee",
+                "href": "https://maps.app.goo.gl/cj4eyvnDwM97adJz9"
+              }
+            ]
+          },
+          {
+            "time": "20:30",
+            "tags": [
+              {
+                "text": "선택"
+              }
+            ],
+            "name": "조던 → 침사추이 · Lung Tong Fong 龍糖坊 디저트 🍮",
+            "desc": [
+              "네이선로드 따라 도보 20분 또는 MTR 조던→침사추이 2분 · 호텔 근처 망고 탕수이"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://maps.app.goo.gl/XgyLmQHfHCbXmXYN6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "num": 3,
+        "date": "12/14 (월) · 셩완 · 센트럴 · 란콰이펑",
+        "items": [
+          {
+            "time": "08:00",
+            "tags": [
+              {
+                "text": "이동"
+              }
+            ],
+            "name": "Star Ferry (스타페리) 침사추이 → 센트럴 ⛴️",
+            "desc": [
+              "호텔에서 부두까지 도보 12분 · 10분 항해 · 옥토퍼스 OK"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=Star+Ferry+Pier+Tsim+Sha+Tsui"
+              }
+            ]
+          },
+          {
+            "time": "08:30",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "아침 — Sang Kee Congee Shop 生記 (상기 콘지숍) 죽 🥣",
+            "desc": [
+              "셩완 · 월요일 영업(일요일 휴무) · 피단살코기죽·어편죽"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://maps.app.goo.gl/gqBoCCgs5Hmom8pBA"
+              }
+            ]
+          },
+          {
+            "time": "09:30",
+            "name": "Hollywood Road (할리우드 로드) — Man Mo Temple 文武廟 (만모사원) · Cat Street (캣 스트리트) 🏮",
+            "desc": [
+              "셩완에서 센트럴 방향으로 걸으며 구경 · 만모사원 향 연기 사진 포인트"
+            ],
+            "links": [
+              {
+                "label": "📍 Hollywood Rd",
+                "href": "https://maps.app.goo.gl/7NS56Mh4b8FTRQVv5"
+              },
+              {
+                "label": "📍 Man Mo Temple",
+                "href": "https://www.google.com/maps/search/?api=1&query=Man+Mo+Temple+Hollywood+Road"
+              }
+            ]
+          },
+          {
+            "time": "11:00",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "브런치 — Sing Heung Yuen 勝香園 (싱흥유엔) 토마토 국수 · 크리스피 번 🍅",
+            "desc": [
+              "월요일 영업(일요일 휴무) · 11시 전후 도착해야 줄 짧음"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://maps.app.goo.gl/sQifrvzNZZx2ubwD9"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "name": "Peel Street (필 스트리트) · Mid-Levels Escalator (미드레벨 에스컬레이터) · PMQ 元創方 🏛️",
+            "desc": [
+              "Peel St 벽화·그라피티 → 에스컬레이터 타고 올라가며 소호 구경(상행은 10:00 이후) → PMQ 디자인숍"
+            ],
+            "links": [
+              {
+                "label": "📍 Peel St",
+                "href": "https://maps.app.goo.gl/o96QqUqThw2YFNH8A"
+              },
+              {
+                "label": "📍 PMQ",
+                "href": "https://www.google.com/maps/search/?api=1&query=PMQ+Aberdeen+Street+Central"
+              }
+            ]
+          },
+          {
+            "time": "13:00",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "커피 — MYLKLAB.CO (Central Market 센트럴 마켓 2층) ☕",
+            "desc": [
+              "걷다 지치면 여기서 한 잔 · 센트럴역 바로 옆이라 복귀 동선 좋음"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://maps.app.goo.gl/1GEP1CpvJNRqrYyD9"
+              }
+            ]
+          },
+          {
+            "time": "13:30",
+            "tags": [
+              {
+                "text": "휴식",
+                "cls": "rest"
+              }
+            ],
+            "name": "숙소 복귀 · 휴식 14:00~16:30 🛏️",
+            "desc": [
+              "MTR 센트럴→침사추이 5분(췬완선)"
+            ]
+          },
+          {
+            "time": "16:30",
+            "tags": [
+              {
+                "text": "선택"
+              }
+            ],
+            "name": "Peak Tram (피크 트램) → Victoria Peak (빅토리아 피크) 노을·야경 🚋",
+            "desc": [
+              "16:30 센트럴 도착 → 피크 트램(사전 예약 권장) → 17:40 노을 + 야경 한 번에 · 스카이 테라스 428 또는 무료 라이언스 파빌리온",
+              "피크 안 가면 → 바로 카우키로 이른 저녁"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=Peak+Tram+Lower+Terminus+Garden+Road"
+              }
+            ]
+          },
+          {
+            "time": "18:00",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "저녁 — Kau Kee 九記牛腩 (카우키) 우육면 🐂",
+            "desc": [
+              "월요일 영업(일요일 휴무) · 저녁 시간대가 점심보다 줄 짧음 · 우육탕면·카레 우삼겹",
+              "대안: Dong Kee 棟記飯店 (동키) 홍콩식 볶음 요리(센트럴)"
+            ],
+            "links": [
+              {
+                "label": "📍 Kau Kee",
+                "href": "https://maps.app.goo.gl/c1Vb6xQJwu5iqPVG8"
+              },
+              {
+                "label": "📍 Dong Kee",
+                "href": "https://maps.app.goo.gl/QmKZRnrp3M3eEJr5A"
+              }
+            ]
+          },
+          {
+            "time": "19:30",
+            "tags": [
+              {
+                "text": "술"
+              }
+            ],
+            "name": "Lan Kwai Fong (란콰이펑) — The Iron Fairies · Maggie Choo's 🍸",
+            "desc": [
+              "둘 다 센트럴 · 분위기 바 2곳 중 택1 또는 연달아 · 마지막 MTR 센트럴→침사추이 00:30 전후 확인"
+            ],
+            "links": [
+              {
+                "label": "📍 Iron Fairies",
+                "href": "https://maps.app.goo.gl/aVDHaMp8DGHW1Uz28"
+              },
+              {
+                "label": "📍 Maggie Choo's",
+                "href": "https://maps.app.goo.gl/jn7PWrohB5AsxhZd6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "num": 4,
+        "date": "12/15 (화) · 완차이 · 코즈웨이베이",
+        "items": [
+          {
+            "time": "10:00",
+            "tags": [
+              {
+                "text": "쇼핑"
+              }
+            ],
+            "name": "Admiralty (애드미럴티)역 F출구 — Star Street 星街 (스타 스트리트) 소품샵 · 카페 🛋️",
+            "desc": [
+              "MTR 침사추이→애드미럴티 5분 · Star St · Moon St · Sun St 골목 편집숍·카페 · 조용한 동네 산책"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=Star+Street+Wan+Chai"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "점심 — Sun King Yuen 新景園 (선킹유엔) 광동식 카레 🍛",
+            "desc": [
+              "완차이 · 소고기 카레·돼지갈비 카레 · 현지인 맛집",
+              "대안: FAT J Char Siu (팻제이) 차슈 덮밥(완차이)"
+            ],
+            "links": [
+              {
+                "label": "📍 Sun King Yuen",
+                "href": "https://maps.app.goo.gl/XJphT6FrDaLNbbRY8"
+              },
+              {
+                "label": "📍 FAT J",
+                "href": "https://maps.app.goo.gl/9oJonKstrdNxYrBRA"
+              }
+            ]
+          },
+          {
+            "time": "13:00",
+            "name": "Wan Chai (완차이) — Blue House 藍屋 (블루하우스) · Lee Tung Avenue 利東街 (리퉁 애비뉴) 🏘️",
+            "desc": [
+              "블루하우스(파란 건물) → 리퉁 애비뉴 가로수길 · 가볍게 30분"
+            ],
+            "links": [
+              {
+                "label": "📍 Blue House",
+                "href": "https://www.google.com/maps/search/?api=1&query=Blue+House+Stone+Nullah+Lane+Wan+Chai"
+              },
+              {
+                "label": "📍 Lee Tung Avenue",
+                "href": "https://www.google.com/maps/search/?api=1&query=Lee+Tung+Avenue+Wan+Chai"
+              }
+            ]
+          },
+          {
+            "time": "13:40",
+            "tags": [
+              {
+                "text": "휴식",
+                "cls": "rest"
+              }
+            ],
+            "name": "숙소 복귀 · 휴식 14:00~16:00 🛏️",
+            "desc": [
+              "MTR 완차이→침사추이 10분(애드미럴티 환승)"
+            ]
+          },
+          {
+            "time": "16:00",
+            "tags": [
+              {
+                "text": "쇼핑"
+              }
+            ],
+            "name": "Causeway Bay (코즈웨이베이) — Times Square 時代廣場 (타임스퀘어) · Hysan Place (하이산 플레이스) 🛒",
+            "desc": [
+              "MTR 침사추이→코즈웨이베이 12분 · 쇼핑 1시간 반 · 딩딩 트램 타고 싶으면 완차이에서 코즈웨이베이까지 한 구간"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=Times+Square+Causeway+Bay"
+              }
+            ]
+          },
+          {
+            "time": "17:30",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "디저트 — C Dessert 聰。(씨 디저트 · 완차이) 🍧",
+            "desc": [
+              "코즈웨이베이에서 완차이 부두 방향으로 이동하며 들르기 · 두부화·탕수이",
+              "대안: Lung Tong Fong 龍糖坊 코즈웨이베이점"
+            ],
+            "links": [
+              {
+                "label": "📍 C Dessert",
+                "href": "https://maps.app.goo.gl/Nd8RW3P4JHBuxEvbA"
+              },
+              {
+                "label": "📍 龍糖坊 CWB",
+                "href": "https://maps.app.goo.gl/cvPutbNBrfrpwnDB9"
+              }
+            ]
+          },
+          {
+            "time": "18:00",
+            "tags": [
+              {
+                "text": "야경"
+              }
+            ],
+            "name": "Wan Chai Ferry Pier (완차이 페리 부두) → Star Ferry로 침사추이 ⛴️",
+            "desc": [
+              "해는 졌지만 양쪽 야경이 켜진 시간이라 배에서 보기 좋음 · 노을을 배에서 보려면 쇼핑 줄이고 <b>17:30 배</b>"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=Wan+Chai+Ferry+Pier"
+              }
+            ]
+          },
+          {
+            "time": "18:30",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "저녁 — Social Place 唐宮小聚 (소셜 플레이스) 딤섬 또는 Chee Kei 池記 (치케이) 완탕면 🦐",
+            "desc": [
+              "둘 다 침사추이 · 부두에서 도보 10분 안팎"
+            ],
+            "links": [
+              {
+                "label": "📍 Social Place",
+                "href": "https://maps.app.goo.gl/BES2Jf48hKbXFeDG8"
+              },
+              {
+                "label": "📍 Chee Kei",
+                "href": "https://maps.app.goo.gl/GmewuVjjbLVyYqpB8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "num": 5,
+        "date": "12/16 (수) · 서구룡 · 스타의 거리 · 출국",
+        "items": [
+          {
+            "time": "11:00",
+            "name": "체크아웃 · 짐 처리 🧳",
+            "desc": [
+              "이날은 낮 휴식 대신 <b>오전을 비움</b> · 늦잠 자고 체크아웃 · 짐은 호텔 보관 또는 Kowloon Station (구룡역) 도심 체크인(이스타항공 가능 여부 확인 필요)"
+            ],
+            "links": [
+              {
+                "label": "📍 Kowloon Station 도심 체크인",
+                "href": "https://www.google.com/maps/search/?api=1&query=Kowloon+Station+Airport+Express+In-town+Check-in"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "가벼운 점심 — Bakehouse (베이크하우스) 에그타르트 · Sweet Dynasty 糖朝 (스위트 다이너스티) 🥧",
+            "desc": [
+              "둘 다 호텔 근처 · 베이크하우스 에그타르트는 줄 서는 편 · 스위트 다이너스티 죽·딤섬"
+            ],
+            "links": [
+              {
+                "label": "📍 Bakehouse",
+                "href": "https://www.google.com/maps/search/?api=1&query=Bakehouse+Tsim+Sha+Tsui"
+              },
+              {
+                "label": "📍 Sweet Dynasty",
+                "href": "https://www.google.com/maps/search/?api=1&query=Sweet+Dynasty+Tsim+Sha+Tsui"
+              }
+            ]
+          },
+          {
+            "time": "13:00",
+            "tags": [
+              {
+                "text": "쇼핑"
+              }
+            ],
+            "name": "Harbour City 海港城 (하버시티) · K11 Musea 쇼핑 마무리 🛍️",
+            "desc": [
+              "면세·기념품 마지막 정리 · 둘 다 호텔에서 도보 15분 안"
+            ],
+            "links": [
+              {
+                "label": "📍 Harbour City",
+                "href": "https://www.google.com/maps/search/?api=1&query=Harbour+City+Tsim+Sha+Tsui"
+              },
+              {
+                "label": "📍 K11 Musea",
+                "href": "https://www.google.com/maps/search/?api=1&query=K11+Musea"
+              }
+            ]
+          },
+          {
+            "time": "15:00",
+            "name": "West Kowloon Cultural District (서구룡 문화지구) — M+ · Art Park (아트파크) 🎨",
+            "desc": [
+              "MTR 구룡역 또는 침사추이에서 택시 10분 · M+ 뮤지엄 둘러보고 아트파크 잔디로"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=West+Kowloon+Cultural+District+Art+Park"
+              }
+            ]
+          },
+          {
+            "time": "17:15",
+            "tags": [
+              {
+                "text": "야경"
+              }
+            ],
+            "name": "Art Park (아트파크) 노을 🌇",
+            "desc": [
+              "일몰 <b>17:40</b> · 홍콩섬 스카이라인 뒤로 해 지는 곳 · 잔디에 앉아 보기 좋음"
+            ]
+          },
+          {
+            "time": "18:30",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "마지막 저녁 — 호텔 근처 🍽️",
+            "desc": [
+              "아직 못 간 곳 중에서 · Wing Nin Noodle · 海 三碗麵 · Sing Lum Khui (성림거 운남쌀국수) · 소셜 플레이스(DAY4에 안 갔다면)"
+            ],
+            "links": [
+              {
+                "label": "📍 Wing Nin",
+                "href": "https://maps.app.goo.gl/KjdRgMBbv4EqWe1t7"
+              },
+              {
+                "label": "📍 海 三碗麵",
+                "href": "https://maps.app.goo.gl/eogKb8vffHaq6CBi6"
+              },
+              {
+                "label": "📍 Sing Lum Khui",
+                "href": "https://maps.app.goo.gl/cXuZKjbBymDrC6Fw6"
+              }
+            ]
+          },
+          {
+            "time": "20:00",
+            "tags": [
+              {
+                "text": "야경"
+              }
+            ],
+            "name": "Avenue of Stars 星光大道 (스타의 거리) — A Symphony of Lights (심포니 오브 라이츠) 🌃",
+            "desc": [
+              "매일 20:00 · 약 10분 · 호텔에서 도보 12분 · 끝나면 바로 짐 찾으러"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://www.google.com/maps/search/?api=1&query=Avenue+of+Stars+Tsim+Sha+Tsui"
+              }
+            ]
+          },
+          {
+            "time": "20:20",
+            "tags": [
+              {
+                "text": "이동"
+              }
+            ],
+            "name": "짐 찾고 공항으로 🚄",
+            "desc": [
+              "호텔 짐 찾기 → 택시 구룡역 10분 → AEL 22분 · 도심 체크인 했으면 구룡역에서 바로 AEL"
+            ]
+          },
+          {
+            "time": "21:00",
+            "name": "홍콩 국제공항 T1 도착 → 체크인 · 출국 ✈️",
+            "desc": [
+              "남은 옥토퍼스 잔액은 공항 AEL 고객센터에서 환불 가능"
+            ]
+          }
+        ]
+      },
+      {
+        "num": 6,
+        "date": "12/17 (목) · 귀국",
+        "items": [
+          {
+            "time": "00:05",
+            "name": "홍콩 국제공항 T1 출발 ✈️",
+            "desc": [
+              "ZE862편 · 12/16(수) 밤 21시쯤 공항 도착 후 체크인"
+            ]
+          },
+          {
+            "time": "04:55",
+            "name": "인천공항 T1 도착 🏠"
+          }
+        ]
+      }
+    ]
+  },
+  "pages": {
+    "food": {
+      "emoji": "🍜",
+      "title": "맛집",
+      "subtitle": "지역별 26곳 · 딤섬 · 완탕면 · 로스트 구이",
+      "tabs": true,
+      "summary": {
+        "badge": "MAP",
+        "badgeCls": "blue",
+        "title": "지역별로 보기 🗺️",
+        "note": "가고 싶은 곳 26곳 · 홍콩섬(완차이·센트럴·셩완) 17곳 + 구룡(침사추이·야우마테이) 9곳 · 같은 지역끼리 묶어서 하루에 돌기 · <b>일요일 휴무 6곳</b> 주의",
+        "cards": [
+          {
+            "tags": [
+              {
+                "text": "평점 TOP 3",
+                "cls": "want"
+              }
+            ],
+            "name": "⭐ 4.7 Hing Won Siu Mei · 4.7 雲吞仔 · 4.6 Dong Kee",
+            "desc": [
+              "로스트 구이(완차이) · 완탕면(침사추이) · 차찬탱(셩완)"
+            ]
+          }
+        ]
+      },
+      "groups": [
+        {
+          "id": "wanchai",
+          "label": "완차이",
+          "badge": "WAN CHAI",
+          "title": "완차이 (Wan Chai) 🏙️",
+          "note": "홍콩섬 · 센트럴 동쪽 비즈니스 거리 · 로스트 구이 밀집 · 4곳",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "광둥 요리",
+                  "cls": "want"
+                }
+              ],
+              "name": "Sun King Yuen Curry Restaurant (新景園咖喱小廚)",
+              "desc": [
+                "광동식 카레 전문점",
+                "구글 평점 <b>⭐ 4.2</b> · 리뷰 1,529개",
+                "🕐 <b>11:30~14:30 / 18:30~20:30</b> · 일요일 휴무"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/XJphT6FrDaLNbbRY8"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "차슈 덮밥"
+                }
+              ],
+              "name": "FAT J Char Siu 發達叉燒",
+              "desc": [
+                "차슈 덮밥",
+                "구글 평점 <b>⭐ 4.1</b> · 리뷰 712개",
+                "🕐 <b>12:00~16:00 / 17:00~21:00</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/9oJonKstrdNxYrBRA"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "로스트 구이",
+                  "cls": "want"
+                }
+              ],
+              "name": "Hing Won Siu Mei 興旺燒味工坊",
+              "desc": [
+                "로스트 구이집 · 맛있어 보여서 저장",
+                "구글 평점 <b>⭐ 4.7</b> · 리뷰 73개",
+                "🕐 <b>09:30~19:00 (저녁 이른 마감)</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/zbkpE6EF5WY1nWYE8"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "로스트 구이",
+                  "cls": "want"
+                }
+              ],
+              "name": "Chukfo Taipan 竺扶大班燒味",
+              "desc": [
+                "바비큐 덮밥, 플래터 · 와인도 있음",
+                "구글 평점 <b>⭐ 4.3</b> · 리뷰 1,338개",
+                "🕐 <b>09:30~20:30</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/3kyxExVpTVVbgQYr7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "central",
+          "label": "센트럴",
+          "badge": "CENTRAL",
+          "title": "센트럴 (Central) 🏢",
+          "note": "홍콩섬 중심 · 면 요리 격전지 · 7곳",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "딤섬"
+                }
+              ],
+              "name": "Jervois Cafe",
+              "desc": [
+                "현지 음식 먹을 수 있는데 왠지 가보고 싶은 곳",
+                "구글 평점 <b>⭐ 3.8</b> · 리뷰 458개",
+                "🕐 <b>월~금 07:30~21:00 · 토 ~18:30 · 일 ~17:30</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/xQ7CHk9tAxcS8jJo8"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "핫도그"
+                }
+              ],
+              "name": "Wing Lok Yuen Restaurant",
+              "desc": [
+                "홍콩식 핫도그와 밀크티 파는 곳",
+                "구글 평점 <b>⭐ 3.7</b> · 리뷰 786개",
+                "🕐 <b>07:30~19:30</b> · 일요일 휴무"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/VG8K3XBjjTTBcUwF9"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "차찬탱"
+                }
+              ],
+              "name": "Chopsticks Kee",
+              "desc": [
+                "홍콩 로컬 분위기",
+                "구글 평점 <b>⭐ 3.6</b> · 리뷰 624개",
+                "🕐 <b>08:30~22:00</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/GMy3SepFraBMPPdCA"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "중국 면 요리"
+                }
+              ],
+              "name": "Tsim Chai Kee 沾仔記 (침차이키)",
+              "desc": [
+                "완탕면, 새우볼 · 체인점이 몇 개 있으니 위치 확인",
+                "구글 평점 <b>⭐ 3.9</b> · 리뷰 4,328개",
+                "🕐 <b>11:00~21:30</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/CdMHJiDm8TYJs5mg6"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "중국 면 요리"
+                }
+              ],
+              "name": "Kau Kee 九記牛腩 (카우키)",
+              "desc": [
+                "우육면(소 양지 국수)의 원조급",
+                "구글 평점 <b>⭐ 3.6</b> · 리뷰 4,718개",
+                "🕐 <b>12:30~22:30</b> · 일요일 휴무"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/c1Vb6xQJwu5iqPVG8"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "홍콩식 패스트푸드"
+                }
+              ],
+              "name": "Sing Heung Yuen 勝香園 (싱흥유엔)",
+              "desc": [
+                "토마토 국수, 크리스피 번 · <b>꼭 갈 곳!</b>",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 2,004개",
+                "🕐 <b>08:00~15:45 (오후 이른 마감 주의)</b> · 일요일 휴무"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/sQifrvzNZZx2ubwD9"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "거위·새끼돼지 구이"
+                }
+              ],
+              "name": "新德興陳皮燒鵝",
+              "desc": [
+                "오리고기 구이, 새끼돼지 구이",
+                "구글 평점 <b>⭐ 3.9</b> · 리뷰 22개",
+                "🕐 <b>11:00~21:00 (OpenRice 기준 · 구글맵 미등록)</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/J7oEksnXwWMMbsZS9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sheungwan",
+          "label": "셩완",
+          "badge": "SHEUNG WAN",
+          "title": "셩완 (Sheung Wan) 🏮",
+          "note": "센트럴 서쪽 옛 거리 · 죽·딤섬·거위 구이 · 6곳",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "죽 전문점",
+                  "cls": "want"
+                }
+              ],
+              "name": "Sang Kee Congee Shop 生記 (상기 콘지숍)",
+              "desc": [
+                "아침도 먹을 수 있는 콘지(죽) 집",
+                "구글 평점 <b>⭐ 4.2</b> · 리뷰 1,392개",
+                "🕐 <b>06:30~20:30</b> · 토·일 휴무"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/gqBoCCgs5Hmom8pBA"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "딤섬"
+                }
+              ],
+              "name": "SC Cuisine",
+              "desc": [
+                "광동식 덮밥, 가정식을 먹을 수 있는 딤섬집",
+                "구글 평점 <b>⭐ 3.9</b> · 리뷰 429개",
+                "🕐 <b>07:00~23:00</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/k4vfmCwZW7Hpsb5RA"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "음식점",
+                  "cls": "want"
+                }
+              ],
+              "name": "Chicken Egg Boy",
+              "desc": [
+                "에그와플 + 파인애플번을 합친 디저트 같은 음식",
+                "구글 평점 <b>⭐ 4.3</b> · 리뷰 311개",
+                "🕐 <b>12:00~20:00</b> · 수요일 휴무"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/T6B2g1GMuN5gZm7e8"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "차찬탱",
+                  "cls": "want"
+                }
+              ],
+              "name": "Dong Kee 棟記飯店",
+              "desc": [
+                "홍콩 현지 음식을 여러 개 즐기고 싶을 때 · <b>찾아가기:</b> 시장 건물 G층·1층은 저녁에 문 닫으니 당황하지 말고 에스컬레이터로 두 번 올라가 2층으로",
+                "구글 평점 <b>⭐ 4.6</b> · 리뷰 710개",
+                "🕐 <b>10:30~15:00 / 17:00~22:15</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/QmKZRnrp3M3eEJr5A"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "로스트 구이"
+                }
+              ],
+              "name": "Dragon State Kitchen 龍邦燒味小廚茶餐廳",
+              "desc": [
+                "로스트 구이 식당",
+                "구글 평점 <b>⭐ 3.8</b> · 리뷰 1,429개",
+                "🕐 <b>07:00~22:00</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/8kvHwpGWCaQ8JFTo8"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "거위 구이",
+                  "cls": "want"
+                }
+              ],
+              "name": "Ming Kee 四溢燒味店(明記)",
+              "desc": [
+                "거위 구이 노포 느낌 · 셩완 시장 2층 조리식품센터",
+                "구글 평점 <b>⭐ 4.2</b> · 리뷰 49개",
+                "🕐 <b>10:30~17:30 (오후 이른 마감)</b> · 일요일 휴무"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/y2WxLREoLPJifesq9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tst",
+          "label": "침사추이",
+          "badge": "TSIM SHA TSUI",
+          "title": "침사추이 · 야우마테이 (TST / Yau Ma Tei) 🌃",
+          "note": "구룡반도 · 하버 야경 · 면 요리 천국 + 템플 스트리트 · 9곳",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "광둥 요리"
+                }
+              ],
+              "name": "Social Place 唐宮小聚 (소셜 플레이스)",
+              "desc": [
+                "해산물 요리와 딤섬 · 깔끔하게 먹고 싶을 때",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 840개",
+                "🕐 <b>11:30~15:30 / 17:30~22:30</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/BES2Jf48hKbXFeDG8"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "딤섬"
+                }
+              ],
+              "name": "Log Ye Dim Sum (록예딤섬)",
+              "desc": [
+                "딤섬",
+                "구글 평점 <b>⭐ 4.1</b> · 리뷰 1,136개",
+                "🕐 <b>08:00~23:30</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/K9RBuHnNc9nxJiw38"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "중국 면 요리"
+                }
+              ],
+              "name": "Chee Kei 池記 (치케이)",
+              "desc": [
+                "아침 일찍 열고 국수, 완탕면, 죽을 파는 곳",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 1,060개",
+                "🕐 <b>07:30~22:00 (금·토 ~23:00)</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/GmewuVjjbLVyYqpB8"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "중국 면 요리",
+                  "cls": "want"
+                }
+              ],
+              "name": "海 三碗麵",
+              "desc": [
+                "새우 육수, 닭 육수 등 베이스를 고르는 국수",
+                "구글 평점 <b>⭐ 4.3</b> · 리뷰 195개",
+                "🕐 <b>구글맵 미등록 · 방문자 글 기준 오후 4:30~5:30경 오픈</b> · 휴무 정보 없음"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/eogKb8vffHaq6CBi6"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "중국 면 요리",
+                  "cls": "want"
+                }
+              ],
+              "name": "雲吞仔 WAN TON SON NOODLES",
+              "desc": [
+                "완탕면 평이 좋은 곳 · 국물이 갈비탕 느낌",
+                "구글 평점 <b>⭐ 4.7</b> · 리뷰 171개",
+                "🕐 <b>11:00~01:00 (새벽까지)</b> · 일요일 휴무"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/EAYztk62f2SDCS1d6"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "중국 면 요리"
+                }
+              ],
+              "name": "Wing Nin Noodle",
+              "desc": [
+                "홍콩 현지 국수",
+                "구글 평점 <b>⭐ 3.8</b> · 리뷰 666개",
+                "🕐 <b>11:00~23:00</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/KjdRgMBbv4EqWe1t7"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "중국 면 요리"
+                }
+              ],
+              "name": "Sing Lum Khui (성림거 운남쌀국수)",
+              "desc": [
+                "운남식 쌀국수",
+                "구글 평점 <b>⭐ 3.3</b> · 리뷰 1,459개",
+                "🕐 <b>11:00~24:00 (일 ~23:00)</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/cXuZKjbBymDrC6Fw6"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "거위 구이"
+                }
+              ],
+              "name": "Ki'son Roasted Goose 棋子燒鵝",
+              "desc": [
+                "로스트 구이 · 침사추이 Carnarvon Rd",
+                "구글 평점 <b>⭐ 3.8</b> · 리뷰 985개",
+                "🕐 <b>10:00~22:00</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/jibx1T1YmgRprHFo9"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "굴전·솥밥"
+                }
+              ],
+              "name": "Hing Kee 興記菜館",
+              "desc": [
+                "굴전, 솥밥(클레이팟 라이스) · 야우마테이 템플 스트리트 야시장 안",
+                "구글 평점 <b>⭐ 3.7</b> · 리뷰 4,005개",
+                "🕐 <b>13:30~15:30 / 17:30~24:00</b> · 연중무휴"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/cj4eyvnDwM97adJz9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "cafe": {
+      "emoji": "☕",
+      "title": "카페",
+      "subtitle": "지역별 5곳 · 홍콩식 디저트 · 탕수이 · 카페",
+      "tabs": true,
+      "summary": {
+        "badge": "MAP",
+        "badgeCls": "blue",
+        "title": "지역별로 보기 🗺️",
+        "note": "카페·디저트 6곳 · 홍콩섬 4곳 + 구룡(침사추이·태자) 2곳 · 홍콩식 디저트(탕수이) 5곳 + 카페 1곳 · 대부분 오후에 열고 밤늦게까지 해서 저녁 식사 후 코스로 딱",
+        "cards": [
+          {
+            "tags": [
+              {
+                "text": "평점 TOP",
+                "cls": "want"
+              }
+            ],
+            "name": "⭐ 4.7 C Dessert · 4.7 MYLKLAB.CO · 4.6 Ching Ching Desserts",
+            "desc": [
+              "홍콩식 디저트(완차이) · 카페(센트럴) · 홍콩식 디저트(완차이)"
+            ]
+          }
+        ]
+      },
+      "groups": [
+        {
+          "id": "wanchai",
+          "label": "완차이",
+          "badge": "WAN CHAI",
+          "title": "완차이 (Wan Chai) 🏙️",
+          "note": "홍콩식 디저트 2곳 · 둘 다 오후 1시 오픈, 밤늦게까지",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "홍콩식 디저트",
+                  "cls": "want"
+                }
+              ],
+              "name": "C Dessert 聰。",
+              "desc": [
+                "홍콩식 디저트 전문점 · 탕수이(糖水), 사고 같은 전통 디저트",
+                "구글 평점 <b>⭐ 4.7</b> · 리뷰 811개",
+                "🕐 <b>월~목·일 13:00~23:00 · 금·토 13:00~24:00</b>"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/Nd8RW3P4JHBuxEvbA"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "홍콩식 디저트",
+                  "cls": "want"
+                }
+              ],
+              "name": "晶晶甜品 Ching Ching Desserts",
+              "desc": [
+                "홍콩식 디저트, 푸딩 등을 파는 곳",
+                "구글 평점 <b>⭐ 4.6</b> · 리뷰 402개 · 가격 <b>~$50</b>",
+                "🕐 <b>매일 13:00~23:00</b>"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/jAKG63LdgxWzdeaS9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "central",
+          "label": "센트럴",
+          "badge": "CENTRAL",
+          "title": "센트럴 (Central) 🏢",
+          "note": "Central Market 2층 · 커피 한 잔 쉬어가기 좋은 위치",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "카페",
+                  "cls": "want"
+                }
+              ],
+              "name": "MYLKLAB.CO",
+              "desc": [
+                "Central Market 2층",
+                "구글 평점 <b>⭐ 4.7</b> · 리뷰 87개 · 가격 <b>$50~100</b>",
+                "🕐 <b>월~금 09:00~22:00 · 토·일 10:00~22:00</b>"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/1GEP1CpvJNRqrYyD9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cwb",
+          "label": "코즈웨이베이",
+          "badge": "CWB",
+          "title": "코즈웨이베이 (Causeway Bay) 🛍️",
+          "note": "완차이 동쪽 쇼핑 지구 · 밤 12시까지 하는 탕수이집",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "홍콩식 디저트 · 탕수이"
+                }
+              ],
+              "name": "Lung Tong Fong 龍糖坊 (銅鑼灣점)",
+              "desc": [
+                "구글 평점 <b>⭐ 4.2</b> · 리뷰 206개 · 가격 <b>$50~100</b>",
+                "🕐 <b>매일 14:00~24:00</b>"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/cvPutbNBrfrpwnDB9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tst",
+          "label": "침사추이",
+          "badge": "TST",
+          "title": "침사추이 (Tsim Sha Tsui) 🌃",
+          "note": "구룡 · 록예딤섬·치케이에서 도보 3분 · 점심부터 밤늦게까지",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "홍콩식 디저트 · 탕수이"
+                }
+              ],
+              "name": "龍糖坊 Lung Tong Fong (尖沙咀 침사추이점)",
+              "desc": [
+                "홍콩식 탕수이 디저트 · <b>록예딤섬·치케이 근처 (도보 3분)</b> → 딤섬 먹고 디저트 코스로",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 114개 · OpenRice 😊123 / ☹️1 · 가격 <b>$50~100</b>",
+                "🕐 <b>매일 11:30~23:30</b> · 연중무휴 · 오후 2~4시, 저녁 8~9시가 가장 붐빔 (크게 붐비진 않음)",
+                "📍 22 Ashley Rd, Honytex Building (지하·지상) · 📞 <a href=\"tel:+85223386166\">+852 2338 6166</a>"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/XgyLmQHfHCbXmXYN6"
+                },
+                {
+                  "label": "🍽️ OpenRice에서 보기",
+                  "href": "https://s.openrice.com/QrKS0somF00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pe",
+          "label": "태자",
+          "badge": "PRINCE EDWARD",
+          "title": "태자 (Prince Edward) 🍨",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "홍콩식 디저트 · 흑임자"
+                }
+              ],
+              "name": "Heartwarming 暖心芝作 (하트워밍)",
+              "desc": [
+                "미슐랭 빕 구르망 흑임자 전문 디저트 · 흑임자 탕수이·아이스크림·흑임자 롤 · <b>삼수이포에서 MTR 한 정거장</b> → DAY 2 삼수이포 구경 후 또는 몽콕 가기 전 코스로",
+                "🕐 <b>매일 10:00~22:00</b> (2024 기준 · 확인 필요)",
+                "📍 Shop B, G/F, 23 Yu Chau St, Prince Edward · 태자역 D출구 도보 2분"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/cRVuNyTV4QWuzFcN8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "drink": {
+      "emoji": "🍶",
+      "title": "술집",
+      "subtitle": "지역별 2곳 · 칵테일 바 · 테마 바",
+      "groups": [
+        {
+          "id": "central",
+          "badge": "CENTRAL",
+          "title": "센트럴 (Central) 🏢",
+          "note": "할리우드 로드 · 소호 입구 · 두 곳이 같은 자리라 한 번에 들르기 좋음 · 2곳",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "칵테일 바 · 테마 바"
+                }
+              ],
+              "name": "The Iron Fairies Hong Kong",
+              "desc": [
+                "대장간 콘셉트의 어두운 테마 바 · 천장을 가득 채운 나비 장식과 라이브 재즈로 유명",
+                "🕐 <b>영업시간 미확인</b> · 메모·시간 보내주면 추가"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/aVDHaMp8DGHW1Uz28"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "칵테일 바 · 테마 바"
+                }
+              ],
+              "name": "Maggie Choo's Hong Kong",
+              "desc": [
+                "1930년대 상하이 분위기의 지하 바 · Iron Fairies와 같은 자리",
+                "🕐 <b>영업시간 미확인</b> · 메모·시간 보내주면 추가"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://maps.app.goo.gl/jn7PWrohB5AsxhZd6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "sos": {
+    "note": "홍콩에서 바로 전화 연결 — 번호를 누르면 통화로 연결돼요",
+    "cards": [
+      {
+        "name": "🇰🇷 대한민국 영사관",
+        "sub": "주홍콩 대한민국 총영사관",
+        "tels": [
+          {
+            "label": "📞 24시간 긴급당직",
+            "num": "+852-9731-0092",
+            "href": "+85297310092"
+          },
+          {
+            "label": "☎️ 대표전화",
+            "num": "+852-2529-4141",
+            "href": "+85225294141"
+          },
+          {
+            "label": "🆘 영사콜센터(24h)",
+            "num": "+82-2-3210-0404",
+            "href": "+82232100404"
+          }
+        ]
+      },
+      {
+        "name": "🚨 긴급 (경찰·소방·구급차)",
+        "sub": "홍콩 통합 긴급번호 · 사건·사고·화재·응급환자",
+        "tels": [
+          {
+            "label": "",
+            "num": "999",
+            "href": "999",
+            "big": true
+          }
+        ]
+      },
+      {
+        "name": "🚇 MTR 고객센터",
+        "sub": "지하철 분실물·운행 문의",
+        "tels": [
+          {
+            "label": "☎️ MTR 핫라인",
+            "num": "+852-2881-8888",
+            "href": "+85228818888"
+          }
+        ]
+      }
+    ]
+  }
+}

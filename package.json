@@ -1,0 +1,10 @@
+{
+  "name": "my-travel",
+  "private": true,
+  "description": "여행 계획 정적 사이트 — trips/*.json → dist/",
+  "scripts": {
+    "build": "node build.js",
+    "preview": "node build.js && python3 -m http.server 8788 -d dist"
+  },
+  "engines": { "node": ">=18" }
+}

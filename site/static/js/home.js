@@ -1,81 +1,4 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>my-travel ✈️ | 여행 모음</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="emoji">✈️🗺️</div>
-    <h1>my-travel</h1>
-    <p>여행별 일정 · 맛집 · 준비물을 한곳에</p>
-    <div class="count-pill" id="tripCount">총 1개의 여행</div>
-  </header>
-
-  <div class="wrap">
-
-    <section>
-      <div class="sec-head"><span class="sec-badge">TRIPS</span><h2>여행 목록</h2></div>
-
-      <div class="filter-tabs" role="tablist" aria-label="여행 필터">
-        <button class="tab active" role="tab" aria-selected="true" data-filter="upcoming">🗓️ 예정 여행 <span class="cnt" data-cnt="upcoming">0</span></button>
-        <button class="tab" role="tab" aria-selected="false" data-filter="done">✅ 다녀온 여행 <span class="cnt" data-cnt="done">0</span></button>
-      </div>
-
-      <div class="trip-grid" id="tripGrid">
-
-        <article class="trip-card" data-start="2026-07-04" data-end="2026-07-08">
-          <a class="stretched-link" href="2026-07-matsuyama/index.html" aria-label="민수의 땀나는 마쓰야마 여행 열기"></a>
-          <div class="trip-banner"></div>
-          <div class="trip-body">
-            <div class="trip-top">
-              <div class="trip-emoji">🍊</div>
-              <span class="trip-status" data-status></span>
-            </div>
-            <div class="trip-title">민수의 땀나는 마쓰야마 여행</div>
-            <div class="trip-loc">에히메현 · 도고온천 · 미식 투어</div>
-            <div class="trip-dates">📅 4박 5일 · 2026.07.04(금) ~ 07.08(화)</div>
-          </div>
-        </article>
-
-        <article class="trip-card" data-start="2026-12-12" data-end="2026-12-17">
-          <a class="stretched-link" href="2026-12-hongkong/index.html" aria-label="민수의 홍콩 여행 열기"></a>
-          <div class="trip-banner"></div>
-          <div class="trip-body">
-            <div class="trip-top">
-              <div class="trip-emoji">🇭🇰</div>
-              <span class="trip-status" data-status></span>
-            </div>
-            <div class="trip-title">민수의 홍콩 여행</div>
-            <div class="trip-loc">딤섬 · 야경 · 미식 투어</div>
-            <div class="trip-dates">📅 5박 6일 · 2026.12.12(토) ~ 12.17(목)</div>
-          </div>
-        </article>
-
-        <!-- NEW_TRIP_CARD -->
-
-        <div class="trip-card placeholder" data-empty="upcoming">
-          <div class="ph-emoji">✈️</div>
-          <div class="ph-title">예정된 여행이 없어요 ✈️</div>
-          <div class="ph-sub">새 여행 폴더를 추가하면 여기에 나타나요</div>
-        </div>
-
-        <div class="trip-card placeholder" data-empty="done">
-          <div class="ph-emoji">🧳</div>
-          <div class="ph-title">아직 다녀온 여행이 없어요 🧳</div>
-          <div class="ph-sub">첫 여행을 기록해 보세요</div>
-        </div>
-
-      </div>
-    </section>
-
-    <footer>made with ❤️ · <a href="https://github.com/4midare/my-travel" target="_blank">GitHub Pages</a></footer>
-  </div>
-
-  <script>
-  // 여행 카드 상태 배지 계산 (D-day / 여행 중 / 다녀옴) + 예정/다녀옴 필터
+// 여행 카드 상태 배지 계산 (D-day / 여행 중 / 다녀옴) + 예정/다녀옴 필터
   (function () {
     var grid = document.getElementById("tripGrid");
     var cards = document.querySelectorAll(".trip-card[data-start]");
@@ -174,6 +97,3 @@
     var initialTab = new URLSearchParams(window.location.search).get("tab");
     setActiveTab(initialTab === "done" ? "done" : "upcoming", false);
   })();
-  </script>
-</body>
-</html>

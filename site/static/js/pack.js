@@ -1,76 +1,5 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>민수의 땀나는 마쓰야마 여행 🧳 | 준비물</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <a class="back-home" href="../index.html" aria-label="여행 목록으로">‹ 여행 목록</a>
-    <div class="emoji">🧳</div>
-    <h1>준비물</h1>
-    <p>짐 체크리스트</p>
-  </header>
-
-  <nav class="tabs">
-    <a href="index.html">🏠 홈</a>
-    <a href="food.html">🍜 맛집</a>
-    <a href="cafe.html">☕ 카페</a>
-    <a href="drink.html">🍶 술집</a>
-    <a href="pack.html" class="active">🧳 준비물</a>
-  </nav>
-
-  <div class="wrap">
-
-    <!-- 긴급 연락처 -->
-    <section>
-      <div class="sec-head"><span class="sec-badge red">SOS</span><h2>긴급 연락처 🚨</h2></div>
-      <p class="sec-note">일본에서 바로 전화 연결 — 번호를 누르면 통화로 연결돼요</p>
-
-      <div class="grid">
-        <div class="sos-card">
-          <div class="sos-name">🇰🇷 대한민국 영사관 <span class="sos-sub">주히로시마 총영사관 (에히메현 관할)</span></div>
-          <a class="sos-tel" href="tel:+819087128028">📞 24시간 긴급당직 <b>+81-90-8712-8028</b></a>
-          <a class="sos-tel" href="tel:+81825052100">☎️ 대표전화 <b>+81-82-505-2100</b></a>
-          <a class="sos-tel" href="tel:+82232100404">🆘 영사콜센터(24h) <b>+82-2-3210-0404</b></a>
-        </div>
-
-        <div class="sos-card">
-          <div class="sos-name">🚑 긴급 (소방·구급차) <span class="sos-sub">화재·부상·응급환자</span></div>
-          <a class="sos-tel big" href="tel:119"><b>119</b></a>
-        </div>
-
-        <div class="sos-card">
-          <div class="sos-name">👮 경찰 <span class="sos-sub">사건·사고·분실·도난</span></div>
-          <a class="sos-tel big" href="tel:110"><b>110</b></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- 준비물 -->
-    <section>
-      <div class="sec-head"><span class="sec-badge">PACK</span><h2>준비물 리스트 🧳</h2></div>
-      <p class="sec-note">체크하면 모든 기기에 바로 반영돼요 ☁️ <span class="sync-status" id="syncStatus">연결 중…</span></p>
-
-      <div id="packList"></div>
-
-      <form class="add-item" id="addForm" autocomplete="off">
-        <select id="addCat" aria-label="분류"></select>
-        <input id="addName" type="text" placeholder="준비물 추가…" maxlength="60" required>
-        <button type="submit">추가</button>
-      </form>
-    </section>
-
-    <footer>🍊 즐거운 마쓰야마 여행 되세요!</footer>
-  </div>
-
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="../supabase.js"></script>
-<script>
-  // 준비물 체크리스트 (Supabase 실시간 동기화)
-  var TRIP = "2026-07-matsuyama";
+// 준비물 체크리스트 (Supabase 실시간 동기화)
+  const TRIP = document.body.getAttribute("data-trip");
   var FIXED_CATS = ["👕 옷", "🪥 세면도구", "💻 전자 용품", "💊 약·건강", "📄 서류", "🎒 기타"];
   var packList = document.getElementById('packList');
   var syncStatus = document.getElementById('syncStatus');
@@ -203,6 +132,3 @@
     .subscribe();
 
   load();
-</script>
-</body>
-</html>
