@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers 정적 사이트 설정 (travel.neungae.com)
+  "name": "my-travel",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

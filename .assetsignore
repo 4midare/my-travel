@@ -1,0 +1,10 @@
+# Cloudflare Workers 정적 자산 배포에서 제외할 파일 (gitignore 문법)
+.git/
+.gitignore
+.assetsignore
+.playwright-mcp/
+_template/
+wrangler.jsonc
+new-trip.sh
+README.md
+CNAME
