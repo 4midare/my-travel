@@ -852,13 +852,13 @@
     "food": {
       "emoji": "🍜",
       "title": "맛집",
-      "subtitle": "지역별 26곳 · 딤섬 · 완탕면 · 로스트 구이",
+      "subtitle": "지역별 48곳 · 딤섬 · 완탕면 · 로스트 구이",
       "tabs": true,
       "summary": {
         "badge": "MAP",
         "badgeCls": "blue",
         "title": "지역별로 보기 🗺️",
-        "note": "가고 싶은 곳 26곳 · 홍콩섬(완차이·센트럴·셩완) 17곳 + 구룡(침사추이·야우마테이) 9곳 · 같은 지역끼리 묶어서 하루에 돌기 · <b>일요일 휴무 6곳</b> 주의",
+        "note": "가고 싶은 곳 48곳 · 홍콩섬(완차이·센트럴·셩완) 17곳 + 구룡(침사추이·조던·야우마테이 28곳 · 삼수이포 3곳) · 같은 지역끼리 묶어서 하루에 돌기 · <b>일요일 휴무</b> 표시된 곳 주의",
         "cards": [
           {
             "tags": [
@@ -870,6 +870,18 @@
             "name": "⭐ 4.7 Hing Won Siu Mei · 4.7 雲吞仔 · 4.6 Dong Kee",
             "desc": [
               "로스트 구이(완차이) · 완탕면(침사추이) · 차찬탱(셩완)"
+            ]
+          },
+          {
+            "tags": [
+              {
+                "text": "새로 추가",
+                "cls": "want"
+              }
+            ],
+            "name": "⭐ 4.8 MY KITCHEN · 4.5 Shek Kee · 4.4 Hop Hing · 4.4 新竹園軒",
+            "desc": [
+              "티베트 요리(야우마테이) · 완탕면 · 국수/죽 · 딤섬(이상 침사추이)"
             ]
           }
         ]
@@ -1234,10 +1246,10 @@
         },
         {
           "id": "tst",
-          "label": "침사추이",
+          "label": "침사추이·조던",
           "badge": "TSIM SHA TSUI",
-          "title": "침사추이 · 야우마테이 (TST / Yau Ma Tei) 🌃",
-          "note": "구룡반도 · 하버 야경 · 면 요리 천국 + 템플 스트리트 · 9곳",
+          "title": "침사추이 · 조던 · 야우마테이 (TST / Jordan / Yau Ma Tei) 🌃",
+          "note": "구룡반도 · 숙소 주변 · 면·딤섬·다이파이동 + 템플 스트리트 · 28곳",
           "items": [
             {
               "tags": [
@@ -1411,6 +1423,464 @@
                   "href": "https://maps.app.goo.gl/cj4eyvnDwM97adJz9"
                 }
               ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "국수 · 죽",
+                  "cls": "want"
+                }
+              ],
+              "name": "合興粉麵茶餐廳 Hop Hing Noodle Restaurant",
+              "desc": [
+                "아침 일찍 여는 국숫집 · 완탕면, 죽 등 메뉴가 다양",
+                "구글 평점 <b>⭐ 4.4</b> · 리뷰 164개",
+                "🕐 <b>매일 07:30~23:00</b>",
+                "📍 G/F, 5A Humphreys Ave, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%E5%90%88%E8%88%88%E7%B2%89%E9%BA%B5%E8%8C%B6%E9%A4%90%E5%BB%B3+Hop+Hing+Noodle+Restaurant/data=!4m2!3m1!1s0x340401115335109f:0x31f5881e003fbf1c"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "죽 · 완탕면"
+                }
+              ],
+              "name": "Hung Lee",
+              "desc": [
+                "콘지(죽)와 완탕면 · 아침 7시 오픈이라 아침 식사용",
+                "구글 평점 <b>⭐ 3.9</b> · 리뷰 814개",
+                "🕐 <b>영업시간 미확인</b> · 구글맵에 시간 정보 없음 (메모상 아침 7시 오픈)",
+                "📍 45-47 Carnarvon Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Hung+Lee/data=!4m2!3m1!1s0x3404010016cd0841:0x54488a29b58d7e64"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "완탕면",
+                  "cls": "want"
+                }
+              ],
+              "name": "Shek Kee Wonton Noodles 錫記招牌雲吞",
+              "desc": [
+                "완탕면 전문 · 평점 높은 편",
+                "구글 평점 <b>⭐ 4.5</b> · 리뷰 1,346개",
+                "🕐 <b>11:00~21:00</b> · 일요일 휴무",
+                "📍 Shop B, 5 Ichang St, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Shek+Kee+Wonton+Noodles/data=!4m2!3m1!1s0x340400f27ce49ab5:0xa81d2529d4e15a45"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "완탕면"
+                }
+              ],
+              "name": "Mak's Noodle (막스누들)",
+              "desc": [
+                "완탕면으로 유명한 체인의 침사추이 지점",
+                "구글 평점 <b>⭐ 3.6</b> · 리뷰 127개",
+                "🕐 <b>매일 10:00~23:30</b>",
+                "📍 19 Lock Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%EB%A7%89%EC%8A%A4%EB%88%84%EB%93%A4/data=!4m2!3m1!1s0x340400f279e21db3:0xcc24abe67fedaaf"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "중국 면 요리"
+                }
+              ],
+              "name": "Sham Tsai Kee 深仔記",
+              "desc": [
+                "새벽까지 하는 국숫집 · 늦은 밤 야식용",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 358개",
+                "🕐 <b>11:00~03:00</b> · 금·토 04:00까지 · 일 24:00까지",
+                "📍 Shop 4, G/F, 5-9 Hart Ave, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Sham+Tsai+Kee/data=!4m2!3m1!1s0x340400ee0f07daef:0x3f375810829ad0ed"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "죽 전문점"
+                }
+              ],
+              "name": "Master Congee 大師傅粥品",
+              "desc": [
+                "콘지집 · 프라이드 누들도 판매(문솔이용) · 이른 아침부터 새벽까지",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 1,231개",
+                "🕐 <b>매일 06:30~01:00</b>",
+                "📍 15 Cameron Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Master+Congee/data=!4m2!3m1!1s0x340401d58fc59819:0x311142637054bf7c"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "딤섬"
+                }
+              ],
+              "name": "Master Chan Dim Sum Specialist 陳師傅自製點心專門店",
+              "desc": [
+                "수제 딤섬 전문점 · 아침부터 밤까지 딤섬 가능",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 935개",
+                "🕐 <b>매일 08:30~23:30</b>",
+                "📍 G/F, Long Kee Mansion, 56 Cameron Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Master+Chan+Dim+Sum+Specialist/data=!4m2!3m1!1s0x340406d6b7fb54d1:0x1b7afb2876a49ff7"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "딤섬",
+                  "cls": "want"
+                }
+              ],
+              "name": "新竹園軒",
+              "desc": [
+                "숙소 근처 딤섬집 · 평점 높은 편",
+                "구글 평점 <b>⭐ 4.4</b> · 리뷰 396개",
+                "🕐 <b>매일 11:00~23:00</b>",
+                "📍 3/F, China Minmetals Tower, 79 Chatham Rd South (입구는 Observatory Rd 쪽)"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%E6%96%B0%E7%AB%B9%E5%9C%92%E8%BB%92/data=!4m2!3m1!1s0x340401cf79586cb3:0xaebac6c9c5f992f9"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "생전바오 · 만두"
+                }
+              ],
+              "name": "祥興記 Cheung Hing Kee (청흥키)",
+              "desc": [
+                "상하이식 군만두(생전바오) 전문",
+                "구글 평점 <b>⭐ 3.7</b> · 리뷰 118개",
+                "🕐 <b>영업시간 미확인</b> · 구글맵에 시간 정보 없음",
+                "📍 48 Lock Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%EC%B2%AD%ED%9D%A5%ED%82%A4/data=!4m2!3m1!1s0x340401b30b761335:0x25adf7a1a459571b"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "거위 구이"
+                }
+              ],
+              "name": "Yung Kee Roast Goose Restaurant 榕記陳皮燒鵝",
+              "desc": [
+                "진피 거위 구이 · 밤늦게까지 해서 저녁에 안주 포장 가능할 듯",
+                "구글 평점 <b>⭐ 3.7</b> · 리뷰 786개",
+                "🕐 <b>매일 10:30~00:30</b>",
+                "📍 Shop 4 & 23, G/F, Wing Lee Building, 27-31 Kimberley Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Yung+Kee+Roast+Goose+Restaurant/data=!4m2!3m1!1s0x340401788c3e134b:0xb33c5c54cb7e5f16"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "광둥 요리 · 다이파이동"
+                }
+              ],
+              "name": "Kam Mui Kee Dai Pai Dong 金妹記大排檔",
+              "desc": [
+                "숙소 근처 광둥 요리 · 사람이 엄청 많아 보임",
+                "구글 평점 <b>⭐ 3.7</b> · 리뷰 708개",
+                "🕐 <b>매일 11:00~24:00</b>",
+                "📍 Kimberley Plaza, 47-49 Kimberley Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Kam+Mui+Kee+Dai+Pai+Dong/data=!4m2!3m1!1s0x340400ee9bcffff9:0xa7ba35fa1590a2b7"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "광둥 요리 · 다이파이동"
+                }
+              ],
+              "name": "Mui Kee Cookfood Stall 妹記大排檔",
+              "desc": [
+                "늦게까지 하고 실내라 쾌적한 다이파이동",
+                "구글 평점 <b>⭐ 3.9</b> · 리뷰 1,330개",
+                "🕐 <b>11:30~16:00 / 17:30~23:30</b>",
+                "📍 3/F, 5 Cameron Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Mui+Kee+Cookfood+Stall/data=!4m2!3m1!1s0x340400ee99435eef:0x459749466661bcee"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "훠궈 · 해산물"
+                }
+              ],
+              "name": "Freshy Fishy Hot Pot Hub 漁火•海鮮刺身火鍋",
+              "desc": [
+                "해산물·사시미 훠궈 · 저녁에만 열고 새벽까지",
+                "구글 평점 <b>⭐ 4.3</b> · 리뷰 433개",
+                "🕐 <b>매일 18:00~02:00</b>",
+                "📍 G/F, 64-66A Kimberley Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Freshy+Fishy+Hot+Pot+Hub/data=!4m2!3m1!1s0x340400eec0e0635d:0x265d5f380f5e666b"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "멕시코 요리"
+                }
+              ],
+              "name": "Caliente",
+              "desc": [
+                "너츠포드 테라스의 멕시코 음식점",
+                "구글 평점 <b>⭐ 4.1</b> · 리뷰 360개",
+                "🕐 <b>영업시간 미확인</b> · 구글맵에 시간 정보 없음",
+                "📍 3/F, 6 Knutsford Terrace, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Caliente/data=!4m2!3m1!1s0x340400ec217d7899:0xf4cb876a197eb924"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "딤섬",
+                  "cls": "want"
+                }
+              ],
+              "name": "Dim Dim Sum Jordan 點點心點心專門店 (딤딤섬)",
+              "desc": [
+                "고추딤섬, 가지딤섬이 유명 · 조던 지점",
+                "구글 평점 <b>⭐ 4.1</b> · 리뷰 2,526개",
+                "🕐 <b>매일 10:00~22:00</b>",
+                "📍 G/F, Man King Building, 28 Man Ying St, Jordan"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%EB%94%A4%EB%94%A4%EC%84%AC/data=!4m2!3m1!1s0x34040095225b8bb9:0xd6eb131b7cfa2563"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "광둥 요리 · 딤섬"
+                }
+              ],
+              "name": "Yat Tung Heen 逸東軒 (Eaton HK)",
+              "desc": [
+                "이튼 호텔 지하의 광둥 레스토랑",
+                "구글 평점 <b>⭐ 4.2</b> · 리뷰 2,250개",
+                "🕐 <b>11:00~16:00 / 18:00~22:30</b> · 토·일은 10:00부터",
+                "📍 Level B2, Eaton HK, 380 Nathan Rd, Jordan"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Yat+Tung+Heen+-+Eaton+HK/data=!4m2!3m1!1s0x340400ea71f0f27d:0x4cd602d4a44ce580"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "생전바오 · 만두"
+                }
+              ],
+              "name": "Lau Hing Kee Pan Fried Buns 劉興記生煎包專門店",
+              "desc": [
+                "군만두(생전바오) 맛집",
+                "구글 평점 <b>⭐ 3.4</b> · 리뷰 81개",
+                "🕐 <b>매일 12:00~20:30</b>",
+                "📍 53-55 Parkes St, Yau Ma Tei"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Lau+Hing+Kee+Pan+Fried+Buns/data=!4m2!3m1!1s0x3404010059270cef:0x43048f0f2fcb2102"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "해산물 · 다이파이동",
+                  "cls": "want"
+                }
+              ],
+              "name": "Wing Fat Seafood Restaurant 榮發大排檔",
+              "desc": [
+                "템플 스트리트 근처 해산물 다이파이동 · DAY 2 저녁 예정",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 890개",
+                "🕐 <b>11:00~14:30 / 17:00~23:30</b> · 수~금 저녁은 16:00부터 · 일요일은 저녁만",
+                "📍 Stall 6·8, 29-39 Woosung St, Yau Ma Tei"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Wing+Fat+Seafood+Restaurant/data=!4m2!3m1!1s0x340401873b31ee3f:0xe268591f6e0e3b6a"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "티베트 요리",
+                  "cls": "want"
+                }
+              ],
+              "name": "MY KITCHEN TIBETAN HALAL RESTAURANT",
+              "desc": [
+                "티베트 할랄 음식 · 야장(야외 자리)도 가능한 듯 · 평점 매우 높음",
+                "구글 평점 <b>⭐ 4.8</b> · 리뷰 1,114개",
+                "🕐 <b>영업시간 미확인</b> · 구글맵에 시간 정보 없음",
+                "📍 G/F, 2H Saigon St, Yau Ma Tei"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/MY+KITCHEN+TIBETAN+HALAL+RESTAURANT/data=!4m2!3m1!1s0x34040153a750ceb1:0x77b11d0382873189"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ssp",
+          "label": "삼수이포",
+          "badge": "SHAM SHUI PO",
+          "title": "삼수이포 (Sham Shui Po) 🧵",
+          "note": "구룡 북쪽 서민 동네 · DAY 2 오전 코스 · 딤섬·창펀·다이파이동 · 3곳",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "딤섬",
+                  "cls": "want"
+                }
+              ],
+              "name": "Tim Ho Wan 添好運 (팀호완 · 삼수이포 본점)",
+              "desc": [
+                "미슐랭 딤섬 원조격 · DAY 2 아침 식사 예정",
+                "구글 평점 <b>⭐ 4.3</b> · 리뷰 6,460개",
+                "🕐 <b>매일 08:00~21:30</b>",
+                "📍 G/F, Ka Wui Building, 9-11 Fuk Wing St, Sham Shui Po"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%ED%8C%80%ED%98%B8%EC%99%84/data=!4m2!3m1!1s0x340400b5751a9c03:0x3f033cd9702ad3d3"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "창펀 · 간식",
+                  "cls": "want"
+                }
+              ],
+              "name": "Hop Yik Tai 合益泰小食",
+              "desc": [
+                "창펀(쌀 롤)으로 유명 · 압리우 스트리트 벼룩시장 구경하며 들르기",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 3,385개",
+                "🕐 <b>매일 06:00~20:30</b>",
+                "📍 121 Kweilin St, Sham Shui Po"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Hop+Yik+Tai/data=!4m2!3m1!1s0x340400b37af466a3:0x3e9ed02065c1365"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "광둥 요리 · 다이파이동",
+                  "cls": "want"
+                }
+              ],
+              "name": "Oi Man Sang 愛文生",
+              "desc": [
+                "스트리트 푸드 파이터(스푸파)에 나온 다이파이동 · 저녁에만 영업",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 3,509개",
+                "🕐 <b>매일 16:30~23:00</b>",
+                "📍 Sham Shui Po Building, 1A-1C Shek Kip Mei St, Sham Shui Po"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Oi+Man+Sang/data=!4m2!3m1!1s0x340400b6a90131ad:0x89d323b31d524ac7"
+                }
+              ]
             }
           ]
         }
@@ -1419,13 +1889,13 @@
     "cafe": {
       "emoji": "☕",
       "title": "카페",
-      "subtitle": "지역별 5곳 · 홍콩식 디저트 · 탕수이 · 카페",
+      "subtitle": "지역별 17곳 · 홍콩식 디저트 · 차찬탱 · 카페",
       "tabs": true,
       "summary": {
         "badge": "MAP",
         "badgeCls": "blue",
         "title": "지역별로 보기 🗺️",
-        "note": "카페·디저트 6곳 · 홍콩섬 4곳 + 구룡(침사추이·태자) 2곳 · 홍콩식 디저트(탕수이) 5곳 + 카페 1곳 · 대부분 오후에 열고 밤늦게까지 해서 저녁 식사 후 코스로 딱",
+        "note": "카페·디저트 17곳 · 홍콩섬 8곳 + 구룡 9곳 · 탕수이집은 오후에 열고 밤늦게까지, 차찬탱은 아침 일찍 열어 아침 식사용으로",
         "cards": [
           {
             "tags": [
@@ -1438,6 +1908,18 @@
             "desc": [
               "홍콩식 디저트(완차이) · 카페(센트럴) · 홍콩식 디저트(완차이)"
             ]
+          },
+          {
+            "tags": [
+              {
+                "text": "새로 추가",
+                "cls": "want"
+              }
+            ],
+            "name": "⭐ 4.6 Marouf Coffee · 4.6 Hashtag B · 4.3 Cheun Wo Pastry",
+            "desc": [
+              "커피(침사추이) · 에그타르트(침사추이) · 망고모찌(센트럴)"
+            ]
           }
         ]
       },
@@ -1447,7 +1929,7 @@
           "label": "완차이",
           "badge": "WAN CHAI",
           "title": "완차이 (Wan Chai) 🏙️",
-          "note": "홍콩식 디저트 2곳 · 둘 다 오후 1시 오픈, 밤늦게까지",
+          "note": "홍콩식 디저트 2곳(오후 1시 오픈, 밤늦게까지) + 아침부터 여는 차찬탱 1곳",
           "items": [
             {
               "tags": [
@@ -1488,6 +1970,26 @@
                   "href": "https://maps.app.goo.gl/jAKG63LdgxWzdeaS9"
                 }
               ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "차찬탱"
+                }
+              ],
+              "name": "My Cup of Tea 我杯茶 (마이컵오브티)",
+              "desc": [
+                "홍콩식 차찬탱 카페 · 아침부터 영업",
+                "구글 평점 <b>⭐ 4.2</b> · 리뷰 1,384개",
+                "🕐 <b>매일 07:00~18:30</b>",
+                "📍 G/F, 6 Spring Garden Ln, Wan Chai"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%EB%A7%88%EC%9D%B4%EC%BB%B5%EC%98%A4%EB%B8%8C%ED%8B%B0/data=!4m2!3m1!1s0x3404005cbb3d361d:0x2b8075d84cd6d8b6"
+                }
+              ]
             }
           ]
         },
@@ -1496,7 +1998,7 @@
           "label": "센트럴",
           "badge": "CENTRAL",
           "title": "센트럴 (Central) 🏢",
-          "note": "Central Market 2층 · 커피 한 잔 쉬어가기 좋은 위치",
+          "note": "Central Market 2층 카페 · 망고모찌 베이커리 · 미드레벨 트램 뷰 카페",
           "items": [
             {
               "tags": [
@@ -1517,6 +2019,47 @@
                   "href": "https://maps.app.goo.gl/1GEP1CpvJNRqrYyD9"
                 }
               ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "베이커리 · 모찌",
+                  "cls": "want"
+                }
+              ],
+              "name": "Cheun Wo Pastry",
+              "desc": [
+                "생 망고모찌 (희동이 필수)",
+                "구글 평점 <b>⭐ 4.3</b> · 리뷰 28개",
+                "🕐 <b>매일 08:00~22:00경</b>",
+                "📍 154 Des Voeux Rd Central"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Cheun+Wo+Pastry/data=!4m2!3m1!1s0x340401005cc506cb:0xf2a2551bbdeb4eb2"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "카페"
+                }
+              ],
+              "name": "Tram View Cafe",
+              "desc": [
+                "피크 트램이 지나가는 게 보이는 카페",
+                "구글 평점 <b>⭐ 4.1</b> · 리뷰 415개",
+                "🕐 <b>11:00~18:00</b> · 토·일은 10:00부터",
+                "📍 2 Tramway Path, Mid-Levels"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Tram+View+Cafe/data=!4m2!3m1!1s0x3404006f84fa5c63:0xdd3766c0fb9339f6"
+                }
+              ]
             }
           ]
         },
@@ -1525,7 +2068,7 @@
           "label": "코즈웨이베이",
           "badge": "CWB",
           "title": "코즈웨이베이 (Causeway Bay) 🛍️",
-          "note": "완차이 동쪽 쇼핑 지구 · 밤 12시까지 하는 탕수이집",
+          "note": "완차이 동쪽 쇼핑 지구 · 밤 12시까지 하는 탕수이집 + 홍콩식 커피숍",
           "items": [
             {
               "tags": [
@@ -1544,15 +2087,35 @@
                   "href": "https://maps.app.goo.gl/cvPutbNBrfrpwnDB9"
                 }
               ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "차찬탱"
+                }
+              ],
+              "name": "Lucky Star Coffee Shop 池記幸運星咖啡室",
+              "desc": [
+                "코즈웨이베이의 홍콩식 커피숍",
+                "구글 평점 <b>⭐ 3.8</b> · 리뷰 860개",
+                "🕐 <b>매일 07:15~21:45</b>",
+                "📍 G/F, 1-3 Pak Sha Rd, Causeway Bay"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Lucky+Star+Coffee+Shop/data=!4m2!3m1!1s0x34040056cb6f324f:0xb15eba45419bb0ac"
+                }
+              ]
             }
           ]
         },
         {
           "id": "tst",
-          "label": "침사추이",
+          "label": "침사추이·조던",
           "badge": "TST",
-          "title": "침사추이 (Tsim Sha Tsui) 🌃",
-          "note": "구룡 · 록예딤섬·치케이에서 도보 3분 · 점심부터 밤늦게까지",
+          "title": "침사추이 · 조던 (Tsim Sha Tsui / Jordan) 🌃",
+          "note": "구룡 · 숙소 주변 · 에그타르트·커피·탕수이 · 조던의 호주우유공사·Kai Kai는 걸어서 15분",
           "items": [
             {
               "tags": [
@@ -1577,14 +2140,118 @@
                   "href": "https://s.openrice.com/QrKS0somF00"
                 }
               ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "카페",
+                  "cls": "want"
+                }
+              ],
+              "name": "Marouf Coffee",
+              "desc": [
+                "평점 높은 커피숍 · 아침 일찍 오픈",
+                "구글 평점 <b>⭐ 4.6</b> · 리뷰 643개",
+                "🕐 <b>07:30~21:00</b> · 금~일 22:00까지",
+                "📍 Shop 3, G/F, 8 Observatory Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Marouf+Coffee/data=!4m2!3m1!1s0x340401440a9a05f1:0x9e3ccb27a75c9b63"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "에그타르트 · 베이커리",
+                  "cls": "want"
+                }
+              ],
+              "name": "Hashtag B (尖沙咀 침사추이점)",
+              "desc": [
+                "홍콩 에그타르트의 신흥 강자",
+                "구글 평점 <b>⭐ 4.6</b> · 리뷰 2,158개",
+                "🕐 <b>매일 08:00~22:00</b>",
+                "📍 Shop C, 49 Carnarvon Rd (Hau Fook St 교차점), Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Hashtag+B+(Tsim+Sha+Tsui)/data=!4m2!3m1!1s0x340401b67badfe13:0xeffc40def478c291"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "홍콩식 디저트"
+                }
+              ],
+              "name": "Chung So Dessert 聰嫂私房甜品 (尖沙咀店)",
+              "desc": [
+                "홍콩식 디저트 · <b>구글 주소가 잘못됐다는 메모</b>: 실제로는 린흥라우 맞은편",
+                "구글 평점 <b>⭐ 4.1</b> · 리뷰 60개",
+                "🕐 <b>매일 12:00~24:00</b>",
+                "📍 구글 표기: Shop 503, G/F, Kimberley Hotel, 28 Kimberley Rd"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Chung+So+Dessert/data=!4m2!3m1!1s0x3404010064619037:0x29c26ff1e561f95d"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "홍콩식 디저트 · 탕수이",
+                  "cls": "want"
+                }
+              ],
+              "name": "Kai Kai Dessert 佳佳甜品",
+              "desc": [
+                "조던의 유명 탕수이집 · 새벽 1시까지",
+                "구글 평점 <b>⭐ 4.2</b> · 리뷰 5,998개",
+                "🕐 <b>매일 12:00~01:00</b>",
+                "📍 G/F, 113-115 Parkes St, Jordan"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Kai+Kai+Dessert/data=!4m2!3m1!1s0x13ff465cfe3b1415:0xeed851ac7ed49514"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "차찬탱",
+                  "cls": "want"
+                }
+              ],
+              "name": "Australia Dairy Company 澳洲牛奶公司 (호주우유공사)",
+              "desc": [
+                "스크램블 에그 토스트와 우유 푸딩으로 유명한 차찬탱",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 6,581개",
+                "🕐 <b>07:30~22:00</b> · <b>목요일 휴무</b>",
+                "📍 47 Parkes St, Jordan"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%ED%98%B8%EC%A3%BC%EC%9A%B0%EC%9C%A0%EA%B3%B5%EC%82%AC/data=!4m2!3m1!1s0x34040102f2c91d81:0xfa546f3e6b987fcf"
+                }
+              ]
             }
           ]
         },
         {
           "id": "pe",
-          "label": "태자",
-          "badge": "PRINCE EDWARD",
-          "title": "태자 (Prince Edward) 🍨",
+          "label": "태자·몽콕",
+          "badge": "PE / MONG KOK",
+          "title": "태자 · 몽콕 (Prince Edward / Mong Kok) 🍨",
           "items": [
             {
               "tags": [
@@ -1604,15 +2271,57 @@
                   "href": "https://maps.app.goo.gl/cRVuNyTV4QWuzFcN8"
                 }
               ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "차찬탱 · 파인애플 번",
+                  "cls": "want"
+                }
+              ],
+              "name": "Kam Wah Cafe & Cake Shop 金華冰廳 (깜와 카페)",
+              "desc": [
+                "파인애플 번(뽀로빠오)으로 유명",
+                "구글 평점 <b>⭐ 3.7</b> · 리뷰 6,554개",
+                "🕐 <b>매일 06:30~22:00</b>",
+                "📍 45-47 Bute St, Mong Kok"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%EA%B9%9C%EC%99%80+%EC%B9%B4%ED%8E%98/data=!4m2!3m1!1s0x340400c84f755fc7:0x8be84595d44d5dcf"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "차찬탱"
+                }
+              ],
+              "name": "Chrisly Cafe 華星冰室",
+              "desc": [
+                "몽콕의 홍콩식 차찬탱",
+                "구글 평점 <b>⭐ 3.7</b> · 리뷰 1,588개",
+                "🕐 <b>07:00~22:00</b> · 일요일 21:00까지",
+                "📍 Shop C, G/F, 107 Sai Yeung Choi St South, Mong Kok"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Chrisly+Cafe/data=!4m2!3m1!1s0x340400c86942b909:0x870309d3062e4cd6"
+                }
+              ]
             }
-          ]
+          ],
+          "note": "DAY 2 삼수이포~몽콕 코스 · 흑임자 디저트 + 파인애플 번 차찬탱"
         }
       ]
     },
     "drink": {
       "emoji": "🍶",
       "title": "술집",
-      "subtitle": "지역별 2곳 · 칵테일 바 · 테마 바",
+      "subtitle": "지역별 9곳 · 펍 · 칵테일 바 · 루프탑",
       "groups": [
         {
           "id": "central",
@@ -1656,9 +2365,163 @@
                 }
               ]
             }
+          ],
+          "label": "센트럴"
+        },
+        {
+          "id": "tst",
+          "label": "침사추이",
+          "badge": "TSIM SHA TSUI",
+          "title": "침사추이 (Tsim Sha Tsui) 🌃",
+          "note": "숙소 주변 · 애슐리 로드 펍 2곳 · 너츠포드 테라스 바 2곳 · 하버 앞 2곳 · 루프탑 1곳 · 7곳",
+          "items": [
+            {
+              "tags": [
+                {
+                  "text": "수제맥주 펍",
+                  "cls": "want"
+                }
+              ],
+              "name": "Kowloon Taproom",
+              "desc": [
+                "수제맥주, 생맥주, 칵테일 · 산책하다 들르기 좋고 늦게까지 함",
+                "구글 평점 <b>⭐ 4.3</b> · 리뷰 831개",
+                "🕐 <b>매일 15:00~02:00</b>",
+                "📍 G/F, 10-14 Ashley Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Kowloon+Taproom/data=!4m2!3m1!1s0x340400f280413e07:0xfea5d8e3cf5a8cc5"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "펍 · 라이브 재즈"
+                }
+              ],
+              "name": "Ned Kelly's Last Stand (네드 켈리스 라스트스탠드)",
+              "desc": [
+                "라이브 재즈 공연이 있는 오래된 펍 · 코룬 탭룸 바로 옆",
+                "구글 평점 <b>⭐ 4.3</b> · 리뷰 1,398개",
+                "🕐 <b>11:30~02:00</b> · 토 24:00까지 · 일 18:30~01:00",
+                "📍 11A Ashley Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/%EB%84%A4%EB%93%9C+%EC%BC%88%EB%A6%AC%EC%8A%A4+%EB%9D%BC%EC%8A%A4%ED%8A%B8%EC%8A%A4%ED%83%A0%EB%93%9C/data=!4m2!3m1!1s0x340400f2894160d9:0xc1053a04313c4817"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "루프탑 바",
+                  "cls": "want"
+                }
+              ],
+              "name": "KABOOM",
+              "desc": [
+                "20층 루프탑 바",
+                "구글 평점 <b>⭐ 4.3</b> · 리뷰 1,266개",
+                "🕐 <b>12:00~01:00</b> · 목~토 02:00까지",
+                "📍 20/F, Prince Tower, 12A Peking Rd, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/KABOOM/data=!4m2!3m1!1s0x340401806382bab9:0x94b3b6b0baebf88e"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "칵테일 바",
+                  "cls": "want"
+                }
+              ],
+              "name": "Sea You Lounge 每個人都有屬於自己的大海",
+              "desc": [
+                "굉장히 가보고 싶은 칵테일 바 · 스타페리 부두에 있어 하버 바로 앞",
+                "구글 평점 <b>⭐ 4.5</b> · 리뷰 74개",
+                "🕐 <b>17:00~24:00</b> · 금·토 02:00까지",
+                "📍 Shop 26-28, G/F, Star Ferry Pier, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/Sea+You+Lounge/data=!4m2!3m1!1s0x340401d195cded2b:0xe13bc467c56811ec"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "카페 · 바"
+                }
+              ],
+              "name": "INK cafe & bar (침사추이 하버프런트)",
+              "desc": [
+                "위치는 좋은데 가격 대비 많이 비싸다고 함",
+                "구글 평점 <b>⭐ 3.7</b> · 리뷰 443개",
+                "🕐 <b>매일 10:00~24:00</b>",
+                "📍 G/F, Hong Kong Museum of Art, 10 Salisbury Rd (스타의 거리 옆)"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/INK+cafe+%26+bar+:+Tsim+Sha+Tsui+harbourfront+location/data=!4m2!3m1!1s0x340401e549e69027:0xe85ce8fe2bef77bc"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "바"
+                }
+              ],
+              "name": "The China Bar, Tsim Sha Tsui",
+              "desc": [
+                "너츠포드 테라스의 바 · 새벽까지",
+                "구글 평점 <b>⭐ 4.0</b> · 리뷰 427개",
+                "🕐 <b>16:00~04:00</b> · 금·토 06:00까지",
+                "📍 10-11 Knutsford Terrace, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/The+China+Bar,+Tsim+Sha+Tsui/data=!4m2!3m1!1s0x340400ee9f4d8627:0x32ce37a44acf3a35"
+                }
+              ]
+            },
+            {
+              "tags": [
+                {
+                  "text": "바"
+                }
+              ],
+              "name": "ARKA HK",
+              "desc": [
+                "너츠포드 테라스 · 리뷰는 적지만 평점 높음",
+                "구글 평점 <b>⭐ 4.9</b> · 리뷰 31개",
+                "🕐 <b>18:00~02:00</b> · 금·토 04:00까지",
+                "📍 G/F, 6 Knutsford Terrace, Tsim Sha Tsui"
+              ],
+              "links": [
+                {
+                  "label": "📍 지도에서 보기",
+                  "href": "https://www.google.com/maps/place/ARKA+HK/data=!4m2!3m1!1s0x3404010079a5257b:0xaee6674256014e56"
+                }
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "tabs": true
     }
   },
   "sos": {
