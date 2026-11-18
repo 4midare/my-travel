@@ -84,7 +84,7 @@
     ]
   },
   "plan": {
-    "note": "숙소(침사추이) 기준 · 매일 <b>14:00~16:30 숙소 휴식</b> 고정 · 12월 일몰 <b>17:40</b> → 오전 걷기 · 낮 휴식 · 해 진 뒤 야경·야시장 · 일요일 휴무 식당(싱흥유엔·카우키·雲吞仔·상기콘지)은 평일 배치 · 🎫 사전 예약: 피크 트램(선택)",
+    "note": "숙소(침사추이) 기준 · 12월 일몰 <b>17:40</b> · 낮 숙소 휴식은 <b>DAY2만</b>(15:50~17:00) · DAY3·DAY4는 숙소 근처에서 아침 먹고 <b>오전 늦게 출발</b>, 휴식 없이 진행 · 일요일 휴무 식당(싱흥유엔·카우키·雲吞仔)은 평일 배치 · ⚠️ 심포니 오브 라이츠는 2026-11-18 종료(여행 기간엔 없음)",
     "days": [
       {
         "num": 1,
@@ -144,7 +144,7 @@
       },
       {
         "num": 2,
-        "date": "12/13 (일) · 삼수이포 · 몽콕 · 야시장",
+        "date": "12/13 (일) · 삼수이포 · 황대선사 · 몽콕 · 야시장",
         "items": [
           {
             "time": "09:30",
@@ -219,32 +219,60 @@
             "time": "13:00",
             "tags": [
               {
+                "text": "이동"
+              }
+            ],
+            "name": "삼수이포 → MTR 웡타이신 (Wong Tai Sin) 🚇",
+            "desc": [
+              "삼수이포(췬완선) 한 정거장 → 프린스에드워드에서 <b>쿤통선(녹색)</b> 환승 → 웡타이신 · 약 20분(출발 전 MTR Mobile 앱으로 확인)"
+            ]
+          },
+          {
+            "time": "13:20",
+            "tags": [
+              {
                 "text": "선택"
               }
             ],
-            "name": "시간 되면 — Heartwarming 暖心芝作 (하트워밍) 흑임자 디저트 🍨",
+            "name": "점심 — 九龍飯館 Dragon's Den (구 文苑飯莊 Man Yuen) 광동요리 · 딤섬 🍖",
             "desc": [
-              "태자(Prince Edward) 23 Yu Chau St · 미슐랭 빕 구르망 · 흑임자 탕수이·아이스크림·흑임자 롤 · 삼수이포에서 MTR 한 정거장 또는 도보 12분",
-              "💡 오후에 몽콕 가기 전 들러도 됨(태자역 D출구 2분, 몽콕까지 도보 10분) · 매일 10:00~22:00(확인 필요)"
+              "미슐랭 빕 구르망(2026) · 2025년 8월 文苑飯莊에서 <b>九龍飯館</b>으로 이름 바꿔 같은 자리 재개장 → 구글맵은 새 이름으로 검색 · 竹園道55號 天馬苑商場 2/F S02",
+              "일요일 점심은 2부제: 10:00~12:30 · <b>13:00~15:30</b> → 2부에 맞춰 도착 · 4인 예약 권장(☎·WhatsApp +852 6315 7300) · 화요일 휴무",
+              "대표 메뉴: 배나무 훈제 비둘기 · 계란 생선내장 구이(한정) · 차슈 · 딤섬 · 뚝배기밥 — 구이류는 사전 예약 · 웡타이신역에서 언덕 위라 택시 5분 권장(도보 약 15분 추정)",
+              "💡 황대선사 근처엔 검증된 완탕면집이 없음 → 완탕면은 DAY1 Wan Ton Son · DAY4 Chee Kei에서 · 건너뛰면 바로 황대선사로(13:20)"
             ],
             "links": [
               {
-                "label": "📍 지도에서 보기",
-                "href": "https://maps.app.goo.gl/cRVuNyTV4QWuzFcN8"
+                "label": "📍 九龍飯館 Dragon's Den",
+                "href": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E9%A3%AF%E9%A4%A8%20%E5%A4%A9%E9%A6%AC%E8%8B%91%E5%95%86%E5%A0%B4%20%E7%AB%B9%E5%9C%92%E9%81%9355%E8%99%9F"
               }
             ]
           },
           {
-            "time": "13:30",
+            "time": "14:30",
+            "name": "Wong Tai Sin Temple 黃大仙祠 (황대선사) 🏮",
+            "desc": [
+              "식당에서 내리막 도보 또는 택시 · 웡타이신역 <b>B2 출구</b> 바로 앞 · 본당 무료 · 관람 약 1시간 · 일요일이라 붐빌 수 있음",
+              "⏰ 폐장 시간이 출처마다 다름(16:30 또는 17:30) → <b>16:00 전에 관람 끝내기</b> · 단정한 복장, 실내 플래시 금지"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://maps.app.goo.gl/8iX7bExQcvVhKR2i6"
+              }
+            ]
+          },
+          {
+            "time": "15:30",
             "tags": [
               {
                 "text": "휴식",
                 "cls": "rest"
               }
             ],
-            "name": "숙소 복귀 · 휴식 14:00~16:30 🛏️",
+            "name": "숙소 복귀 · 휴식 15:50~17:00 🛏️",
             "desc": [
-              "MTR 삼수이포→침사추이 12분 · 힘이 남으면 Kowloon Park 九龍公園 (구룡공원) 산책 후 휴식 · 호텔에서 도보 8분"
+              "MTR 웡타이신 → 몽콕 환승(쿤통선→췬완선) → 침사추이 약 20분 · 점심을 건너뛰면 한 시간 일찍 복귀해 더 길게 휴식"
             ],
             "links": [
               {
@@ -254,7 +282,26 @@
             ]
           },
           {
-            "time": "16:30",
+            "time": "17:00",
+            "tags": [
+              {
+                "text": "선택"
+              }
+            ],
+            "name": "몽콕 가기 전 — Heartwarming 暖心芝作 (하트워밍) 흑임자 디저트 🍨",
+            "desc": [
+              "태자(Prince Edward) 23 Yu Chau St · 미슐랭 빕 구르망 · 흑임자 탕수이·아이스크림·흑임자 롤",
+              "💡 태자역 D출구 2분 → 몽콕까지 도보 10분 · 건너뛰면 MTR로 바로 몽콕 · 매일 10:00~22:00(확인 필요)"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://maps.app.goo.gl/cRVuNyTV4QWuzFcN8"
+              }
+            ]
+          },
+          {
+            "time": "17:30",
             "tags": [
               {
                 "text": "쇼핑"
@@ -276,10 +323,10 @@
             ]
           },
           {
-            "time": "17:45",
+            "time": "18:30",
             "name": "Temple Street Night Market 廟街 (템플 스트리트 야시장 · 야우마테이) 🏮",
             "desc": [
-              "네이선로드 따라 걸어 내려오며 야우마테이로 · 18시쯤부터 노점 본격 오픈 · 야시장 따라 남쪽(조던)으로 내려가기"
+              "네이선로드 따라 걸어 내려오며 야우마테이로 · 노점이 다 열린 시간 · 야시장 따라 남쪽(조던)으로 내려가기"
             ],
             "links": [
               {
@@ -289,7 +336,7 @@
             ]
           },
           {
-            "time": "19:00",
+            "time": "19:30",
             "tags": [
               {
                 "text": "식사"
@@ -312,7 +359,7 @@
             ]
           },
           {
-            "time": "20:30",
+            "time": "21:00",
             "tags": [
               {
                 "text": "선택"
@@ -333,84 +380,37 @@
       },
       {
         "num": 3,
-        "date": "12/14 (월) · 셩완 · 센트럴 · 란콰이펑",
+        "date": "12/14 (월) · 센트럴 · 소호 · 란콰이펑",
         "items": [
           {
-            "time": "08:00",
+            "time": "09:30",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "아침 — 숙소 근처 (미정) 🍳",
+            "desc": [
+              "어디서 먹을지 아직 미정 · 침사추이 숙소 주변에서 해결 · 후보는 맛집·카페 탭 참고"
+            ]
+          },
+          {
+            "time": "10:30",
             "tags": [
               {
                 "text": "이동"
               }
             ],
-            "name": "Star Ferry (스타페리) 침사추이 → 센트럴 ⛴️",
+            "name": "출발 → MTR 센트럴 🚇",
             "desc": [
-              "호텔에서 부두까지 도보 12분 · 10분 항해 · 옥토퍼스 OK"
-            ],
-            "links": [
-              {
-                "label": "📍 지도에서 보기",
-                "href": "https://www.google.com/maps/search/?api=1&query=Star+Ferry+Pier+Tsim+Sha+Tsui"
-              }
-            ]
-          },
-          {
-            "time": "08:30",
-            "tags": [
-              {
-                "text": "식사"
-              }
-            ],
-            "name": "아침 — Sang Kee Congee Shop 生記 (상기 콘지숍) 죽 🥣",
-            "desc": [
-              "셩완 · 월요일 영업(일요일 휴무) · 피단살코기죽·어편죽"
-            ],
-            "links": [
-              {
-                "label": "📍 지도에서 보기",
-                "href": "https://maps.app.goo.gl/gqBoCCgs5Hmom8pBA"
-              }
-            ]
-          },
-          {
-            "time": "09:30",
-            "name": "Hollywood Road (할리우드 로드) — Man Mo Temple 文武廟 (만모사원) · Cat Street (캣 스트리트) 🏮",
-            "desc": [
-              "셩완에서 센트럴 방향으로 걸으며 구경 · 만모사원 향 연기 사진 포인트"
-            ],
-            "links": [
-              {
-                "label": "📍 Hollywood Rd",
-                "href": "https://maps.app.goo.gl/7NS56Mh4b8FTRQVv5"
-              },
-              {
-                "label": "📍 Man Mo Temple",
-                "href": "https://www.google.com/maps/search/?api=1&query=Man+Mo+Temple+Hollywood+Road"
-              }
+              "침사추이→센트럴 5분(췬완선) · 센트럴역 D2 출구 쪽에서 미드레벨 에스컬레이터 시작점까지 도보 5분"
             ]
           },
           {
             "time": "11:00",
-            "tags": [
-              {
-                "text": "식사"
-              }
-            ],
-            "name": "브런치 — Sing Heung Yuen 勝香園 (싱흥유엔) 토마토 국수 · 크리스피 번 🍅",
+            "name": "Mid-Levels Escalator (미드레벨 에스컬레이터) · Peel Street (필 스트리트) · PMQ 元創方 🏛️",
             "desc": [
-              "월요일 영업(일요일 휴무) · 11시 전후 도착해야 줄 짧음"
-            ],
-            "links": [
-              {
-                "label": "📍 지도에서 보기",
-                "href": "https://maps.app.goo.gl/sQifrvzNZZx2ubwD9"
-              }
-            ]
-          },
-          {
-            "time": "12:00",
-            "name": "Peel Street (필 스트리트) · Mid-Levels Escalator (미드레벨 에스컬레이터) · PMQ 元創方 🏛️",
-            "desc": [
-              "Peel St 벽화·그라피티 → 에스컬레이터 타고 올라가며 소호 구경(상행은 10:00 이후) → PMQ 디자인숍"
+              "에스컬레이터 타고 올라가며 소호 구경(상행은 10:00 이후) → Peel St 벽화·그라피티 → PMQ 디자인숍"
             ],
             "links": [
               {
@@ -424,7 +424,42 @@
             ]
           },
           {
-            "time": "13:00",
+            "time": "12:30",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "점심 — Sing Heung Yuen 勝香園 (싱흥유엔) 토마토 국수 · 크리스피 번 🍅",
+            "desc": [
+              "PMQ에서 도보 3분 · 월요일 영업(일요일 휴무) · 점심 피크라 줄 설 수 있음 · 노천 다이파이동"
+            ],
+            "links": [
+              {
+                "label": "📍 지도에서 보기",
+                "href": "https://maps.app.goo.gl/sQifrvzNZZx2ubwD9"
+              }
+            ]
+          },
+          {
+            "time": "13:30",
+            "name": "Hollywood Road (할리우드 로드) — Man Mo Temple 文武廟 (만모사원) · Cat Street (캣 스트리트) 🏮",
+            "desc": [
+              "PMQ에서 서쪽(셩완 방향)으로 걸으며 구경 · 만모사원 향 연기 사진 포인트 · 캣 스트리트 골동품 노점"
+            ],
+            "links": [
+              {
+                "label": "📍 Hollywood Rd",
+                "href": "https://maps.app.goo.gl/7NS56Mh4b8FTRQVv5"
+              },
+              {
+                "label": "📍 Man Mo Temple",
+                "href": "https://www.google.com/maps/search/?api=1&query=Man+Mo+Temple+Hollywood+Road"
+              }
+            ]
+          },
+          {
+            "time": "15:00",
             "tags": [
               {
                 "text": "식사"
@@ -432,7 +467,7 @@
             ],
             "name": "커피 — MYLKLAB.CO (Central Market 센트럴 마켓 2층) ☕",
             "desc": [
-              "걷다 지치면 여기서 한 잔 · 센트럴역 바로 옆이라 복귀 동선 좋음"
+              "할리우드 로드에서 센트럴로 돌아와 한 잔 · 센트럴 마켓 구경 겸 쉬어가기"
             ],
             "links": [
               {
@@ -442,34 +477,21 @@
             ]
           },
           {
-            "time": "13:30",
-            "tags": [
-              {
-                "text": "휴식",
-                "cls": "rest"
-              }
-            ],
-            "name": "숙소 복귀 · 휴식 14:00~16:30 🛏️",
-            "desc": [
-              "MTR 센트럴→침사추이 5분(췬완선)"
-            ]
-          },
-          {
-            "time": "16:30",
+            "time": "16:00",
             "tags": [
               {
                 "text": "선택"
               }
             ],
-            "name": "Peak Tram (피크 트램) → Victoria Peak (빅토리아 피크) 노을·야경 🚋",
+            "name": "Tai Kwun 大館 (타이쿤) · 소호 골목 자유 구경 🧱",
             "desc": [
-              "16:30 센트럴 도착 → 피크 트램(사전 예약 권장) → 17:40 노을 + 야경 한 번에 · 스카이 테라스 428 또는 무료 라이언스 파빌리온",
-              "피크 안 가면 → 바로 카우키로 이른 저녁"
+              "옛 중앙경찰서·빅토리아 감옥을 고친 문화공간 · 입장 무료 · 센트럴 마켓에서 도보 7분, 란콰이펑 바로 옆 · 운영시간 확인 필요",
+              "저녁까지 남는 시간 채우기용 · 지치면 카페에서 더 쉬어도 됨"
             ],
             "links": [
               {
-                "label": "📍 지도에서 보기",
-                "href": "https://www.google.com/maps/search/?api=1&query=Peak+Tram+Lower+Terminus+Garden+Road"
+                "label": "📍 Tai Kwun",
+                "href": "https://www.google.com/maps/search/?api=1&query=Tai+Kwun+10+Hollywood+Road+Central"
               }
             ]
           },
@@ -522,39 +544,87 @@
       },
       {
         "num": 4,
-        "date": "12/15 (화) · 완차이 · 코즈웨이베이",
+        "date": "12/15 (화) · 리펄스 베이 · 스타 스트리트 · 스타의 거리",
         "items": [
           {
-            "time": "10:00",
-            "tags": [
-              {
-                "text": "쇼핑"
-              }
-            ],
-            "name": "Admiralty (애드미럴티)역 F출구 — Star Street 星街 (스타 스트리트) 소품샵 · 카페 🛋️",
-            "desc": [
-              "MTR 침사추이→애드미럴티 5분 · Star St · Moon St · Sun St 골목 편집숍·카페 · 조용한 동네 산책"
-            ],
-            "links": [
-              {
-                "label": "📍 지도에서 보기",
-                "href": "https://www.google.com/maps/search/?api=1&query=Star+Street+Wan+Chai"
-              }
-            ]
-          },
-          {
-            "time": "12:00",
+            "time": "09:30",
             "tags": [
               {
                 "text": "식사"
               }
             ],
-            "name": "점심 — Sun King Yuen 新景園 (선킹유엔) 광동식 카레 🍛",
+            "name": "아침 — 숙소 근처 (미정) 🍳",
             "desc": [
-              "완차이 · 소고기 카레·돼지갈비 카레 · 현지인 맛집",
-              "대안: FAT J Char Siu (팻제이) 차슈 덮밥(완차이)"
+              "숙소 주변에서 먹고 오전 늦게 출발 · 이날은 낮 숙소 휴식 없음"
+            ]
+          },
+          {
+            "time": "10:30",
+            "tags": [
+              {
+                "text": "이동"
+              }
+            ],
+            "name": "출발 → MTR 애드미럴티 (Admiralty) 🚇",
+            "desc": [
+              "침사추이→애드미럴티 5분(췬완선 한 정거장)"
+            ]
+          },
+          {
+            "time": "10:45",
+            "tags": [
+              {
+                "text": "이동"
+              }
+            ],
+            "name": "애드미럴티 → 버스로 Repulse Bay (리펄스 베이) 🚌",
+            "desc": [
+              "정류장 <b>Admiralty Garden, Queensway</b>(역 바로 앞) · Citybus <b>6 · 6A · 6X · 260</b> 아무거나(모두 스탠리행) → <b>Repulse Bay Beach</b> 하차",
+              "약 25~30분(260이 가장 빠른 편) · 요금 HK$11~15 · 옥토퍼스 · 2층 맨 앞자리 전망 좋음 · 배차는 Citybus 앱으로 확인",
+              "💡 4명이면 택시도 무난: 약 HK$100~130 · 20~30분(추정)"
             ],
             "links": [
+              {
+                "label": "📍 타는 곳",
+                "href": "https://www.google.com/maps/search/?api=1&query=Admiralty+Garden+bus+stop+Queensway"
+              }
+            ]
+          },
+          {
+            "time": "11:30",
+            "name": "Repulse Bay Beach 淺水灣 (리펄스 베이 비치) 🏖️",
+            "desc": [
+              "해변 산책 → 남동쪽 끝 틴하우·관음상(鎮海樓公園)·장수교 → 해변 앞 The Pulse 몰 · 약 2시간",
+              "12월 평균 18°C 안팎이라 수영은 어렵고 산책·사진 위주 · 바닷바람 대비 겉옷"
+            ],
+            "links": [
+              {
+                "label": "📍 Repulse Bay Beach",
+                "href": "https://www.google.com/maps/search/?api=1&query=Repulse+Bay+Beach+Hong+Kong"
+              },
+              {
+                "label": "📍 鎮海樓公園",
+                "href": "https://www.google.com/maps/search/?api=1&query=Kwun+Yam+Shrine+Repulse+Bay"
+              }
+            ]
+          },
+          {
+            "time": "12:45",
+            "tags": [
+              {
+                "text": "식사"
+              }
+            ],
+            "name": "점심 — The Pulse (리펄스 베이) 또는 돌아와서 완차이 🍽️",
+            "desc": [
+              "The Pulse: Amalfitana 피자(매일 12:00~22:30) · Sip Song 태국식(월~목 11:30~14:30) · bb.q CHICKEN(11:30~21:30)",
+              "대안(애드미럴티 복귀 후): Sun King Yuen 新景園 광동식 카레 · FAT J Char Siu 차슈 덮밥 — 둘 다 완차이, 스타 스트리트에서 도보권"
+            ],
+            "links": [
+              {
+                "label": "📍 The Pulse",
+                "href": "https://www.google.com/maps/search/?api=1&query=The+Pulse+Repulse+Bay"
+              },
               {
                 "label": "📍 Sun King Yuen",
                 "href": "https://maps.app.goo.gl/XJphT6FrDaLNbbRY8"
@@ -566,10 +636,48 @@
             ]
           },
           {
-            "time": "13:00",
-            "name": "Wan Chai (완차이) — Blue House 藍屋 (블루하우스) · Lee Tung Avenue 利東街 (리퉁 애비뉴) 🏘️",
+            "time": "14:00",
+            "tags": [
+              {
+                "text": "이동"
+              }
+            ],
+            "name": "리펄스 베이 → 버스로 애드미럴티 복귀 🚌",
             "desc": [
-              "블루하우스(파란 건물) → 리퉁 애비뉴 가로수길 · 가볍게 30분"
+              "내렸던 곳 <b>길 건너편</b> 정류장(Repulse Bay Beach) · Citybus <b>6 · 6X</b> → <b>Pacific Place, Queensway</b> 하차(스타 스트리트와 가장 가까움)",
+              "260을 타면 Admiralty Centre(Harcourt Rd) 하차 · 6A는 돌아오는 편 없음"
+            ]
+          },
+          {
+            "time": "14:45",
+            "tags": [
+              {
+                "text": "쇼핑"
+              }
+            ],
+            "name": "Star Street 星街 (스타 스트리트) 일대 — 소품샵 · 카페 🛋️",
+            "desc": [
+              "Star St · Moon St · Sun St · St. Francis Yard 골목 · ⚠️ 애드미럴티역 지하 연결통로는 공사로 폐쇄 → Pacific Place에서 지상으로 도보 7~10분",
+              "소품·편집숍: <b>Green Lemon Atelier</b>(1 Moon St · 매일 10:30~19:00 · 주얼리·액세서리) · Kapok(8 Sun St) · Monocle Shop(1 St. Francis Yard) · Le Labo(2 Star St) · Edgar(5 Moon St)",
+              "카페: Blend & Grind(1 Sun St · 화요일 영업) · APT. Coffee(2-12 Moon St) · BASAO Tea(17 Moon St) · Elephant Grounds — 영업시간은 당일 구글맵 확인"
+            ],
+            "links": [
+              {
+                "label": "📍 Green Lemon Atelier",
+                "href": "https://maps.app.goo.gl/oPqRBQTydKdJUBrv5"
+              },
+              {
+                "label": "📍 Star Street",
+                "href": "https://www.google.com/maps/search/?api=1&query=Star+Street+Wan+Chai"
+              }
+            ]
+          },
+          {
+            "time": "16:30",
+            "name": "부두 가는 길 — Lee Tung Avenue 利東街 (리퉁 애비뉴) · Blue House 藍屋 (블루하우스) 🏘️",
+            "desc": [
+              "스타 스트리트 → 리퉁 애비뉴 가로수길(도보 7분) → 완차이 부두 방향 · 블루하우스는 남쪽으로 5분 더 돌아가는 길이라 시간 되면",
+              "🍧 단 게 당기면 C Dessert 聰。(완차이) 두부화·탕수이"
             ],
             "links": [
               {
@@ -579,60 +687,34 @@
               {
                 "label": "📍 Lee Tung Avenue",
                 "href": "https://www.google.com/maps/search/?api=1&query=Lee+Tung+Avenue+Wan+Chai"
+              },
+              {
+                "label": "📍 C Dessert",
+                "href": "https://maps.app.goo.gl/Nd8RW3P4JHBuxEvbA"
+              }
+            ],
+            "tags": [
+              {
+                "text": "선택"
               }
             ]
           },
           {
-            "time": "13:40",
+            "time": "17:20",
             "tags": [
               {
-                "text": "휴식",
-                "cls": "rest"
+                "text": "야경"
               }
             ],
-            "name": "숙소 복귀 · 휴식 14:00~16:00 🛏️",
+            "name": "Wan Chai Ferry Pier (완차이 페리 부두) → Star Ferry로 침사추이 ⛴️",
             "desc": [
-              "MTR 완차이→침사추이 10분(애드미럴티 환승)"
-            ]
-          },
-          {
-            "time": "16:00",
-            "tags": [
-              {
-                "text": "쇼핑"
-              }
-            ],
-            "name": "Causeway Bay (코즈웨이베이) — Times Square 時代廣場 (타임스퀘어) · Hysan Place (하이산 플레이스) 🛒",
-            "desc": [
-              "MTR 침사추이→코즈웨이베이 12분 · 쇼핑 1시간 반 · 딩딩 트램 타고 싶으면 완차이에서 코즈웨이베이까지 한 구간"
+              "스타 스트리트에서 부두까지 도보 20~25분(육교로 Convention Ave 방향) · 일몰 <b>17:42</b> → 17:20~17:40 배를 타면 노을을 배에서",
+              "이 시간대 8분 간격 · 항해 약 8분 · 성인 HK$5 · 옥토퍼스"
             ],
             "links": [
               {
                 "label": "📍 지도에서 보기",
-                "href": "https://www.google.com/maps/search/?api=1&query=Times+Square+Causeway+Bay"
-              }
-            ]
-          },
-          {
-            "time": "17:30",
-            "tags": [
-              {
-                "text": "식사"
-              }
-            ],
-            "name": "디저트 — C Dessert 聰。(씨 디저트 · 완차이) 🍧",
-            "desc": [
-              "코즈웨이베이에서 완차이 부두 방향으로 이동하며 들르기 · 두부화·탕수이",
-              "대안: Lung Tong Fong 龍糖坊 코즈웨이베이점"
-            ],
-            "links": [
-              {
-                "label": "📍 C Dessert",
-                "href": "https://maps.app.goo.gl/Nd8RW3P4JHBuxEvbA"
-              },
-              {
-                "label": "📍 龍糖坊 CWB",
-                "href": "https://maps.app.goo.gl/cvPutbNBrfrpwnDB9"
+                "href": "https://www.google.com/maps/search/?api=1&query=Wan+Chai+Ferry+Pier"
               }
             ]
           },
@@ -643,19 +725,20 @@
                 "text": "야경"
               }
             ],
-            "name": "Wan Chai Ferry Pier (완차이 페리 부두) → Star Ferry로 침사추이 ⛴️",
+            "name": "Avenue of Stars 星光大道 (스타의 거리) 야경 산책 🌃",
             "desc": [
-              "해는 졌지만 양쪽 야경이 켜진 시간이라 배에서 보기 좋음 · 노을을 배에서 보려면 쇼핑 줄이고 <b>17:30 배</b>"
+              "침사추이 스타페리 부두 → 시계탑 → 해변 산책로 따라 도보 10분 · 홍콩섬 스카이라인 야경",
+              "⚠️ 심포니 오브 라이츠는 2026-11-18 종료 → 20:00 쇼 없음 · 야경은 그대로 볼 수 있음"
             ],
             "links": [
               {
                 "label": "📍 지도에서 보기",
-                "href": "https://www.google.com/maps/search/?api=1&query=Wan+Chai+Ferry+Pier"
+                "href": "https://www.google.com/maps/search/?api=1&query=Avenue+of+Stars+Tsim+Sha+Tsui"
               }
             ]
           },
           {
-            "time": "18:30",
+            "time": "19:15",
             "tags": [
               {
                 "text": "식사"
@@ -663,7 +746,7 @@
             ],
             "name": "저녁 — Social Place 唐宮小聚 (소셜 플레이스) 딤섬 또는 Chee Kei 池記 (치케이) 완탕면 🦐",
             "desc": [
-              "둘 다 침사추이 · 부두에서 도보 10분 안팎"
+              "둘 다 침사추이 · 스타의 거리에서 도보 10분 안팎"
             ],
             "links": [
               {
@@ -797,9 +880,10 @@
                 "text": "야경"
               }
             ],
-            "name": "Avenue of Stars 星光大道 (스타의 거리) — A Symphony of Lights (심포니 오브 라이츠) 🌃",
+            "name": "Avenue of Stars 星光大道 (스타의 거리) 마지막 야경 🌃",
             "desc": [
-              "매일 20:00 · 약 10분 · 호텔에서 도보 12분 · 끝나면 바로 짐 찾으러"
+              "⚠️ 심포니 오브 라이츠는 2026-11-18 종료 → 쇼 없음 · 야경만 보고 짐 찾으러 · DAY4에 이미 봤으면 생략하고 저녁을 여유 있게",
+              "호텔에서 도보 12분"
             ],
             "links": [
               {
