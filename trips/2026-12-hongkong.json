@@ -932,6 +932,72 @@
       }
     ]
   },
+  "notes": [
+    {
+      "badge": "PHOTO",
+      "title": "사진 스팟 📸",
+      "note": "사진 찍기 좋은 곳 모음 · 일정과 별개로 근처 지날 때 들르기",
+      "cards": [
+        {
+          "tags": [
+            {
+              "text": "몽콕"
+            },
+            {
+              "text": "야경",
+              "cls": "time"
+            }
+          ],
+          "name": "Mong Kok Road Footbridge 旺角道行人天橋 (몽콕 육교)",
+          "desc": [
+            "MTR 몽콕역 <b>B3 출구</b> 근처 · 육교 위에서 Tung Choi St · Fa Yuen St를 내려다보는 구도",
+            "간판 불 켜지는 해 질 무렵~밤이 좋음 · DAY2 몽콕 일정 때"
+          ],
+          "links": [
+            {
+              "label": "📍 지도에서 보기",
+              "href": "https://www.google.com/maps/search/?api=1&query=%E6%97%BA%E8%A7%92%E9%81%93%E8%A1%8C%E4%BA%BA%E5%A4%A9%E6%A9%8B"
+            }
+          ]
+        },
+        {
+          "tags": [
+            {
+              "text": "센트럴"
+            }
+          ],
+          "name": "Graham Street 嘉咸街 (그레이엄 스트리트)",
+          "desc": [
+            "센트럴 소호 골목 · 미드레벨 에스컬레이터 · 필 스트리트 · PMQ 바로 옆 · DAY3 센트럴 일정 때"
+          ],
+          "links": [
+            {
+              "label": "📍 지도에서 보기",
+              "href": "https://maps.app.goo.gl/yd2jCLvZxQvRVqho8"
+            }
+          ]
+        },
+        {
+          "tags": [
+            {
+              "text": "침사추이"
+            }
+          ],
+          "name": "China Hong Kong City 中港城 (차이나 홍콩 시티)",
+          "desc": [
+            "캔톤 로드 · <b>황금빛 유리 외벽</b> 건물 사이로 구도 맞춰 찍기",
+            "하버시티 바로 북쪽 · 숙소에서 도보권 · DAY5 하버시티 쇼핑 때"
+          ],
+          "links": [
+            {
+              "label": "📍 지도에서 보기",
+              "href": "https://www.google.com/maps/search/?api=1&query=China%20Hong%20Kong%20City%20Canton%20Road%20Tsim%20Sha%20Tsui"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "pages": {
     "food": {
       "emoji": "🍜",
